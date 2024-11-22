@@ -1,6 +1,3 @@
-
-
-
 import mysql.connector
 
 # Database connection configuration
@@ -11,19 +8,21 @@ config = {
 }
 
 # function to create tables in database
-def create_tables_in_db(conn, create_tables):
+
+def create_tables_in_db(conn,create_tables,table_names):
     try:
         cursor = conn.cursor()
-        for table_query in create_tables:
+        for index, table_query in enumerate(create_tables):
             cursor.execute(table_query)
-            print("Table created successfully")
+            print(f"Table '{table_names[index]}' created successfully")
         conn.commit()
+
     except mysql.connector.Error as err:
         print(f"Failed creating tables: {err}")
+
     finally:
         if cursor:
             cursor.close()
-
 
 # connect to MySQL server to create tables
 try:
@@ -138,7 +137,7 @@ try:
         );""",
 
         """
-        # 7. airline_routes 
+        # 6. airline_routes 
         CREATE TABLE IF NOT EXISTS airline_routes(
         route_id INT AUTO_INCREMENT NOT NULL,
         airline_id INT NULL, -- foreign key to airline table
@@ -154,7 +153,7 @@ try:
         );""",
 
         """
-    # 8. live_data table
+    # 7. live_data table
         CREATE TABLE IF NOT EXISTS live_info (
         live_id INT AUTO_INCREMENT NOT NULL,
         flight_id INT NULL, -- foreign key to flight table
@@ -171,7 +170,7 @@ try:
         ); """,
 
         """
-    # 9. codeshare table 
+    # 8. codeshare table 
         CREATE TABLE IF NOT EXISTS codeshare (
         codeshare_id INT AUTO_INCREMENT NOT NULL,
         flight_id INT NULL, -- foreign key to flight table
@@ -186,24 +185,24 @@ try:
         ); """,
 
         """
-        # 10. pagination_tracking -- to monitor API usage
+        # 9. pagination_tracking -- to monitor API usage
         CREATE TABLE IF NOT EXISTS pagination_tracking (
         pagination_id INT AUTO_INCREMENT NOT NULL,
         api_name VARCHAR(100) NOT NULL,
-        limit INT,
-        offset INT,
-        count INT,  
-        total INT,
+        limits INT,
+        offsets INT,
+        counts INT,  
+        totals INT,
         last_updated DATETIME NULL,
         PRIMARY KEY (pagination_id)
         );""",
 
         """
-    # 11. countries table
+    # 10. countries table
         CREATE TABLE IF NOT EXISTS countries (
         country_id INT AUTO_INCREMENT NOT NULL,
         country_name VARCHAR(255) NOT NULL,
-        country_iso2 CHAR(2) NOT NULL,
+        country_iso2 CHAR(2) NOT NULL, 
         country_iso3 CHAR(3) NOT NULL,
         country_iso_numeric VARCHAR(5),
         population BIGINT,
@@ -213,11 +212,11 @@ try:
         currency_code VARCHAR(10),
         fips_code VARCHAR(10),
         phone_prefix VARCHAR(10),
-        PRIMARY KEY (country_id)
+        PRIMARY KEY (country_iso2)
         );""",
 
         """
-        # 12. cities table
+        # 11. cities table
         CREATE TABLE IF NOT EXISTS cities (
         city_id INT AUTO_INCREMENT NOT NULL,
         city_name VARCHAR(255) NOT NULL,
@@ -228,11 +227,27 @@ try:
         timezone VARCHAR(50),
         gmt_offset INT,
         geoname_id VARCHAR(50),
-        PRIMARY KEY (city_id),
-        FOREIGN KEY (country_iso2) REFERENCES countries(country_iso2)
+        PRIMARY KEY (city_id)
         );"""
 ]
-    create_tables_in_db(conn,create_tables)
+
+    # names of table to print during creation -- this will help track which table has been created
+
+    table_names = [
+        "flight_details",
+        "departure_info",
+        "arrival_info",
+        "airline",
+        "airports",
+        "airline_routes",
+        "live_info",
+        "codeshare",
+        "pagination_tracking",
+        "countries",
+        "cities"
+    ]
+
+    create_tables_in_db(conn, create_tables,table_names)
 except mysql.connector.Error as err:
     print(f"Failed to connect to MySQL database: {err}")
 
