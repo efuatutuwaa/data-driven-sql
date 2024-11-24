@@ -64,10 +64,10 @@ try:
     ]
 
     table_names = [
-        "flight_details",
-        "departure_info",
-        "arrival_info",
-        "airline_routes",
+        # "flight_details",
+        # "departure_info",
+        # "arrival_info",
+        # "airline_routes",
         "cities"
     ]
 

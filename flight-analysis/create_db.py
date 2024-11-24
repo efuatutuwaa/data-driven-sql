@@ -212,7 +212,7 @@ try:
         currency_code VARCHAR(10),
         fips_code VARCHAR(10),
         phone_prefix VARCHAR(10),
-        PRIMARY KEY (country_iso2)
+        PRIMARY KEY (country_id)
         );""",
 
         """
@@ -247,7 +247,7 @@ try:
         "cities"
     ]
 
-    create_tables_in_db(conn, create_tables,table_names)
+    create_tables_in_db(conn, create_tables, table_names)
 except mysql.connector.Error as err:
     print(f"Failed to connect to MySQL database: {err}")
 
