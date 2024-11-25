@@ -1,17 +1,22 @@
+import os
 import mysql.connector
+
+# environment variables
+DB_PASSWORD = os.getenv('DB_PASSWORD')
 
 config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Efua1234',
+    'password': DB_PASSWORD,
     'database': 'flights'
 }
+
 
 # creating connection
 try:
     conn = mysql.connector.connect(**config)
     cursor = conn.cursor()
-    print("Connected to MySQL database")
+    print("Connected to MySQL server")
 
 #   list of foreign key constraints to be added
 

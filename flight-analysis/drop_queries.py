@@ -1,9 +1,13 @@
+import os
 import mysql.connector
+
+# environment variables
+DB_PASSWORD = os.getenv('DB_PASSWORD')
 
 config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Efua1234',
+    'password': DB_PASSWORD,
     'database': 'flights'
 }
 

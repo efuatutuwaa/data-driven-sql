@@ -1,13 +1,18 @@
+import os
 import mysql.connector
+
+# environment variables
+DB_PASSWORD = os.getenv('DB_PASSWORD')
 
 # Database connection configuration
 config = {
     "host": "localhost",
     "user": "root",
-    "password": "Efua1234",
+    "password": DB_PASSWORD,
 }
 
 # function to create tables in database
+
 
 def create_tables_in_db(conn,create_tables,table_names):
     try:

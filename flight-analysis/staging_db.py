@@ -1,10 +1,15 @@
+import os
 import mysql.connector
+
+# environment variables
+DB_PASSWORD = os.getenv('DB_PASSWORD')
 
 # database configurations
 config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Efua1234'
+    'password': DB_PASSWORD,
+    'database': 'staging_flights',
 }
 
 # creating staging database to for ETL processes
