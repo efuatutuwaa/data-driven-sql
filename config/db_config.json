@@ -1,0 +1,8 @@
+{
+  "host": "localhost",
+  "user": "root",
+  "database": {
+    "staging": "staging_flights",
+    "production": "flights"
+  }
+}
