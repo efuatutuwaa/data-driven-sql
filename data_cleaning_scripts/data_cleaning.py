@@ -1,4 +1,4 @@
-
+import os
 import json
 
 class CountryDataCleaner:
@@ -8,8 +8,11 @@ class CountryDataCleaner:
     def load_name_corrections(self):
         """Loads name corrections from a JSON file."""
         try:
-            with open("data_cleaning_scripts/name_corrections.json", "r") as f:
+            base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            corrections_file = os.path.join(base_dir, "data", "name_corrections.json")
+            with open(corrections_file, "r") as f:
                 return json.load(f)
+
         except FileNotFoundError:
             print("Name corrections file not found. Proceeding without corrections.")
             return {}
