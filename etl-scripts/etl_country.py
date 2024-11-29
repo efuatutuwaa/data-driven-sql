@@ -1,46 +1,18 @@
-# 1.  importing libraries
-import time
+# import lib
+from sql_handler.sql_database_handler import SQLDatabaseHandler
+from data_cleaning_scripts.data_cleaning import CountryDataCleaner
 import os
 import requests
-import mysql.connector
-from mysql.connector import Error
+import time
 
 class CountriesETL:
-    def __init__(self, db_config,  api_key):
-        self.db_config = db_config
+    def __init__(self, db_handler, api_key):
+        self.db_handler = db_handler
         self.api_key = api_key
-        self.conn = None
-        self.cursor = None
-
-    def connect_db(self):
-        """Connect to the database."""
-        try:
-            self.conn = mysql.connector.connect(**self.db_config)
-            self.cursor = self.conn.cursor()
-            print("Connected to MySQL database")
-
-        except mysql.connector.Error as err:
-            print(f"Failed connecting to MySQL database: {err}")
-
-    def close_db_connection(self):
-        """Close the database connection."""
-        if self.conn and self.conn.is_connected():
-            self.cursor.close()
-            self.conn.close()
-            print("MySQL connection is closed")
-
-    def truncate_table(self, table_name):
-        """Clears the staging table to prevent duplicates."""
-        try:
-            self.cursor.execute(f"TRUNCATE TABLE {table_name}")
-            self.conn.commit()
-            print(f"Truncated {table_name}")
-
-        except mysql.connector.Error as err:
-            print(f"Error truncating {table_name} : {err}")
+        self.cleaner = CountryDataCleaner()
 
     def extract_data(self):
-        """Extracts data from AviationStack countries API"""
+        """Extract data from AviationStack API."""
         url = "https://api.aviationstack.com/v1/countries"
         records = []
         offset = 0
@@ -53,100 +25,69 @@ class CountriesETL:
                 'offset': offset,
                 'limit': limit
             }
-
-            headers = {
-                "User-Agent": "PostmanRuntime/7.29.2"
-            }
-
-            try:
-                response = requests.get(url, params=params, headers=headers)
-                response.raise_for_status()  # Raise exception for HTTP errors
-                data = response.json()
-
-                # Append data to records
-                records.extend(data.get('data', []))
-                print(f"Fetched {len(data.get('data', []))} records for offset {offset}")
-
-                # Manage the  API rate limits
-                time.sleep(1)
-
-            except requests.exceptions.RequestException as err:
-                print(f"Error fetching data: {err}")
-                break
+            headers = {"User-Agent": "PostmanRuntime/7.29.2"}
+            response = requests.get(url, params=params, headers=headers)
+            response.raise_for_status()
+            data = response.json()
+            records.extend(data.get('data', []))
+            time.sleep(1)  # Rate limit handling
 
         print(f"Total records retrieved: {len(records)}")
         return records
 
     def transform_data(self, country_data):
-        """Transforms countries data from AviationStack countries API"""
+        """Transform and clean the data."""
         transformed_data = []
         for country in country_data:
+            corrected_name = self.cleaner.clean_country_name(country.get('country_name'))
             transformed_data.append((
-                country.get('country_name'),
-                country.get('country_iso2'),
-                country.get('country_iso3'),
-                country.get('country_iso_numeric'),
-                country.get('population'),
-                country.get('capital'),
-                country.get('continent'),
-                country.get('currency_name'),
-                country.get('currency_code'),
-                country.get('fips_code'),
-                country.get('phone_prefix'),
-                country.get('id')  # this will retrieve the country id from the API
+                corrected_name,
+                country.get('country_iso2') or 'XX',
+                country.get('country_iso3') or 'XXX',
+                country.get('country_iso_numeric') or 0,
+                country.get('population') or 0,
+                country.get('capital') or 'Unknown',
+                country.get('continent') or 'Unknown',
+                country.get('currency_name') or 'Unknown',
+                country.get('currency_code') or 'Unknown',
+                country.get('fips_code') or 'XX',
+                country.get('phone_prefix') or 0,
+                country.get('id')
             ))
         return transformed_data
 
     def load_data(self, transformed_data, table_name):
-        """Loads transformed countries data from AviationStack to the countries_staging table """
+        """Load data into the staging table."""
+        truncate_query = f"TRUNCATE TABLE {table_name}"
         insert_query = f"""
         INSERT INTO {table_name} (
-        country_name, country_iso2, country_iso3, country_iso_numeric, population, 
-        capital, continent, currency_name, currency_code, fips_code, phone_prefix, api_country_id
-        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            country_name, country_iso2, country_iso3, country_iso_numeric, population, 
+            capital, continent, currency_name, currency_code, fips_code, phone_prefix, api_country_id,
+            updated_at
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP)
         """
         try:
-            self.cursor.executemany(insert_query, transformed_data)
-            self.conn.commit()
+            # Truncate the staging table first
+            self.db_handler.execute_query(truncate_query)
+
+            # Insert the transformed data into the staging table
+            self.db_handler.execute_many(insert_query, transformed_data)
             print(f"Inserted {len(transformed_data)} records into {table_name}")
-        except mysql.connector.Error as err:
-            print(f"Error loading data into {table_name} : {err}")
+        except Exception as e:
+            print(f"Error loading data into {table_name}: {e}")
 
     def run(self, table_name):
-        """Starting the ETL processes."""
-        self.connect_db()
-        self.truncate_table(table_name)
+        """Run the ETL process."""
         raw_data = self.extract_data()
-        if raw_data:
-            transformed_data = self.transform_data(raw_data)
-            self.load_data(transformed_data, table_name)
-        self.close_db_connection()
+        transformed_data = self.transform_data(raw_data)
+        self.load_data(transformed_data, table_name)
 
 
-# database configurations
-db_config = {
-    "host": "localhost",
-    "user": "root",
-    "password": os.getenv('DB_PASSWORD'),
-    "database": "staging_flights",
-}
+# Initialize and run the ETL process
+db_handler = SQLDatabaseHandler("staging")
+db_handler.connect_to_db()
 
-api_key = os.getenv('API_KEY')
-
-# call the class to run the ETL process for `countries_staging`
-countries_etl = CountriesETL(db_config, api_key)
-countries_etl.run('countries_staging')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+api_key = os.getenv("API_KEY")
+countries_etl = CountriesETL(db_handler, api_key)
+countries_etl.run("countries_staging")
+db_handler.close_db_connection()
