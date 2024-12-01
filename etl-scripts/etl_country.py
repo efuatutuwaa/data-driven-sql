@@ -25,7 +25,9 @@ class CountriesETL:
                 'offset': offset,
                 'limit': limit
             }
-            headers = {"User-Agent": "PostmanRuntime/7.29.2"}
+            headers = {
+                "User-Agent": "Python-Requests/2.28.1"
+            }
             response = requests.get(url, params=params, headers=headers)
             response.raise_for_status()
             data = response.json()
