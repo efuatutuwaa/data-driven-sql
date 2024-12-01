@@ -26,7 +26,7 @@ class CitiesETL:
             }
 
             headers = {
-                "User-Agent": "PostmanRuntime/7.29.2"
+                "User-Agent": "Python-Requests/2.28.1"
             }
             try:
                 response = requests.get(url, params=params, headers=headers)
