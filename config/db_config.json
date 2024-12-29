@@ -3,6 +3,8 @@
   "user": "root",
   "database": {
     "staging": "staging_flights",
-    "production": "flights"
+    "production": "flights",
+    "error_logs": "error_logs",
+    "version_history": "versioning"
   }
 }
