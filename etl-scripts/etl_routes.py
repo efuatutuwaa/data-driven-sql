@@ -15,7 +15,7 @@ class RoutesETL:
         url = "https://api.aviationstack.com/v1/routes"
         records = []
         offset = 0
-        limit = 100
+        limit = 1000
         total = 208033
 
         for offset in range(0, total, limit):
@@ -53,6 +53,7 @@ class RoutesETL:
             departure = route.get("departure", {})
             arrival = route.get("arrival", {})
             flight = route.get("flight", {})
+            airline = route.get("airline", {})
             transformed_routes.append((
                 departure.get("airport"),
                 departure.get("timezone"),
@@ -66,7 +67,9 @@ class RoutesETL:
                 arrival.get("icao"),
                 arrival.get("terminal"),
                 arrival.get("time"),
-                flight.get('number')
+                flight.get('number'),
+                airline.get('iata'),
+                airline.get('icao')
             ))
         return transformed_routes
 
@@ -76,8 +79,8 @@ class RoutesETL:
         insert_query = f"""INSERT INTO {table_name} (
         departure_airport,departure_timezone, departure_iata,departure_icao,departure_terminal, 
         scheduled_departure_time, arrival_airport, arrival_timezone, arrival_iata, 
-        arrival_icao,arrival_terminal, scheduled_arrival_time, flight_number
-        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s,%s,%s)
+        arrival_icao,arrival_terminal, scheduled_arrival_time, flight_number, airline_iata,airline_icao
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s,%s,%s,%s,%s)
         ;"""
 
         try:

@@ -1,5 +1,6 @@
 # import libraries and packages
 from sql_handler.sql_database_handler import SQLDatabaseHandler
+from data_cleaning_scripts.data_cleaning import CityDataCleaner
 import os
 import requests
 import time
@@ -9,13 +10,14 @@ class CitiesETL:
     def __init__(self, db_handler, api_key):
         self.db_handler = db_handler
         self.api_key = api_key
+        self.cleaner = CityDataCleaner()
 
     def get_cities(self):
         """Extracts cities data from Aviation stack api"""
         url = 'https://api.aviationstack.com/v1/cities'
         records = []
         offset = 0
-        limit = 100
+        limit = 1000
         total = 9370
 
         for offset in range(0, total, limit):
@@ -35,7 +37,7 @@ class CitiesETL:
 
                 # appends data to records
                 records.extend(data.get('data', []))
-                print(f"Fetched {len(data.get("data", []))} records for offset {offset}")
+                print(f"Fetched {len(data.get('data', []))} records for offset {offset}")
 
                 # manage the API rate limits
                 time.sleep(1)
@@ -46,19 +48,20 @@ class CitiesETL:
         print(f"Total records: {len(records)}")
         return records
 
-    def tranform_records(self, city_data):
+    def transform_records(self, city_data):
         """Transforms the data from the city API"""
         transformed_records = []
         for city in city_data:
+            corrected_name = self.cleaner.clean_city_name(city.get('city_name'))
             transformed_records.append((
-                city.get('city_name'),
+                corrected_name,
                 city.get('iata_code'),
                 city.get('country_iso2'),
-                city.get('latitude'),
-                city.get('longitude'),
+                city.get('latitude') or -999,  # placeholders for null values
+                city.get('longitude') or -999,  # placeholders for null values
                 city.get('timezone'),
-                city.get('gmt'),
-                city.get('geoname_id'),
+                city.get('gmt') or 0,
+                city.get('geoname_id') or 0,  # placeholders for null values
                 city.get('id')  # this retrieves the city id from the API
             ))
         return transformed_records
@@ -85,7 +88,7 @@ class CitiesETL:
     def run(self, table_name):
         """Runs the ETL script"""
         raw_records = self.get_cities()
-        transformed_records = self.tranform_records(raw_records)
+        transformed_records = self.transform_records(raw_records)
         self.load_data(transformed_records, table_name)
 
 

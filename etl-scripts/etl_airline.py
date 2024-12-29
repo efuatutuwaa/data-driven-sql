@@ -15,7 +15,7 @@ class AirlineETL:
         url = "https://api.aviationstack.com/v1/airlines"
         records = []
         offset = 0
-        limit = 100
+        limit = 1000
         total = 13135
 
         for offset in range(0, total, limit):
