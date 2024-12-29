@@ -18,7 +18,7 @@ class SQLDatabaseHandler:
             base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             config_file = os.path.join(base_dir, "config", "db_config.json")
             with open(config_file, "r") as f:
-                config =  json.load(f)
+                config =json.load(f)
             if self.db_type not in config['database']:
                 raise ValueError(f"Invalid database type : {self.db_type}")
             db_config = {
