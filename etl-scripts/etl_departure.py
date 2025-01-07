@@ -28,7 +28,7 @@ class ETLDeparture:
                 departure_estimated_runway, departure_actual_runway
                 FROM {source_table};
                 """
-            self.db_handler.execute_many(insert_query)
+            self.db_handler.execute_query(insert_query)
             print(f"Inserted data into {destination_table} from {source_table}")
         except Exception as err:
             print(f"Error loading data into {destination_table}: {err}")

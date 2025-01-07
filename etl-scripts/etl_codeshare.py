@@ -22,7 +22,7 @@ class ETLCodeShare:
             codeshare_flight_number, codeshare_flight_iata, codeshare_flight_icao
             FROM {source_table};
             """
-            self.db_handler.execute_many(insert_query)
+            self.db_handler.execute_query(insert_query)
             print(f"Inserted data from {source_table} to {destination_table}")
 
         except Exception as err:

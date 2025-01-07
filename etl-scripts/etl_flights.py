@@ -24,6 +24,7 @@ class FlightETL:
                 'offset': offset,
                 'limit': limit,
                 'flight_date': flight_date
+
             }
             headers = {
                 "User-Agent": "Python-Requests/2.28.1"
@@ -125,12 +126,14 @@ class FlightETL:
                 codeshared.get('airline_icao') if codeshared else None,
                 codeshared.get('flight_number') if codeshared else None,
                 codeshared.get('flight_iata') if codeshared else None,
-                codeshared.get('flight_icao') if codeshared else None
+                codeshared.get('flight_icao') if codeshared else None,
+                flights.get('airline', {}).get('iata'),
+                flights.get('airline', {}).get('icao')
             ))
         return transformed_flights_data
 
     def load_data(self, transformed_flights_data, table_name):
-        # truncate_query = f"TRUNCATE TABLE {table_name}"
+        # self.db_handler.truncate_table(table_name)
         insert_query = f"""INSERT INTO {table_name} (
         flight_date, flight_status, flight_number,flight_iata,flight_icao,
          arrival_airport, arrival_timezone, arrival_iata, arrival_icao, 
@@ -140,12 +143,10 @@ class FlightETL:
         departure_terminal, departure_gate, departure_delay_mins, scheduled_departure_time,
         estimated_departure_time, actual_departure_time, departure_estimated_runway, departure_actual_runway,
         codeshare_airline_name, codeshare_airline_iata, codeshare_airline_icao, codeshare_flight_number, 
-        codeshare_flight_iata, codeshare_flight_icao
+        codeshare_flight_iata, codeshare_flight_icao, airline_iata, airline_icao
         ) 
         VALUES (%s,  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
-                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"""
-
-        # self.db_handler.execute_query(truncate_query)
+                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s, %s);"""
 
         #  for batch processing :)
         batch_size = 1000
@@ -177,8 +178,8 @@ db_handler = SQLDatabaseHandler('staging')
 db_handler.connect_to_db()
 
 api_key = os.getenv('API_KEY')
-start_date = datetime(2024, 12, 18)
-end_date = datetime(2024, 12, 26)
+start_date = datetime(2024, 12, 16)
+end_date = datetime(2025, 1, 5)
 airline_etl = FlightETL(db_handler, api_key)
 airline_etl.run("flight_details_staging", start_date, end_date)
 db_handler.close_db_connection()

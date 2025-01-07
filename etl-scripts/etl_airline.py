@@ -51,15 +51,15 @@ class AirlineETL:
         transformed_airline_data = []
         for airline in airline_data:
             transformed_airline_data.append((
-                airline.get("airline_name"),
-                airline.get("iata_code"),
-                airline.get("icao_code"),
-                airline.get("type"),
-                airline.get("status"),
-                airline.get("fleet_size"),
-                airline.get("fleet_average_age"),
-                airline.get("date_founded"),
-                airline.get("hub_code"),
+                airline.get("airline_name") or 'Missing airline name',
+                airline.get("iata_code") or 'UNK',
+                airline.get("icao_code") or 'UNK',
+                airline.get("type") or 'UNK',
+                airline.get("status") or 'UNK',
+                airline.get("fleet_size") or 0,
+                airline.get("fleet_average_age") or 0,
+                airline.get("date_founded") or 1900,
+                airline.get("hub_code") or 'UNK',
                 airline.get("country_name"),
                 airline.get("country_iso2"),
                 airline.get("id")  # returns airline id from API
