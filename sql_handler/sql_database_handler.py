@@ -53,6 +53,26 @@ class SQLDatabaseHandler:
             self.conn.close()
             print(f"Closed connection to {self.db_type} database")
 
+    def begin_transaction(self):
+        """Begins a database transaction by disabling autocommit"""
+        if self.conn:
+            self.conn.autocommit = False
+            print(f"Transaction begun successfully")
+
+    def commit_transaction(self):
+        """Commits the transaction and re-enables autocommit"""
+        if self.conn:
+            self.conn.commit()
+            self.conn.autocommit = True
+            print(f"Transaction commit successfully")
+
+    def rollback_transaction(self):
+        """Rolls back the transaction and re-enables autocommit"""
+        if self.conn:
+            self.conn.rollback()
+            self.conn.autocommit = False
+            print(f"Transaction rollback successfully")
+
     def truncate_table(self, table_name):
         """Truncates a table. Removes rows all records without deleting the table
         :param table_name: The name of the table to truncate"""
