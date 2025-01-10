@@ -16,7 +16,7 @@ class RoutesETL:
         records = []
         offset = 0
         limit = 1000
-        total = 208033
+        total = 308033
 
         for offset in range(0, total, limit):
             params = {
