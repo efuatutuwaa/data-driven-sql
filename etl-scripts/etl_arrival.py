@@ -18,13 +18,16 @@ class ETLArrival:
             arrival_airport, arrival_timezone, arrival_iata, 
             arrival_icao, arrival_terminal, arrival_gate, arrival_baggage, 
             arrival_delay_mins, scheduled_arrival_time, estimated_arrival_time, actual_arrival_time, 
-            arrival_estimated_runway, arrival_actual_runway
+            arrival_estimated_runway, arrival_actual_runway, flight_iata, flight_icao, flight_date, flight_number
             )
             SELECT 
             arrival_airport, arrival_timezone, arrival_iata, 
             arrival_icao, arrival_terminal, arrival_gate, arrival_baggage, 
             arrival_delay_mins, scheduled_arrival_time, estimated_arrival_time, actual_arrival_time, 
-            arrival_estimated_runway, arrival_actual_runway
+            arrival_estimated_runway, arrival_actual_runway, 
+            COALESCE(flight_iata, 'not_available'),
+            COALESCE(flight_icao,'not_available'),
+            flight_date, flight_number
             FROM {source_table};
             """
             self.db_handler.execute_query(insert_query)
