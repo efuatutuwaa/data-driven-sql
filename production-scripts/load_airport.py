@@ -11,36 +11,58 @@ class LoadAirports:
 
     def load_airports(self, staging_table, production_table, cities_table, countries_table):
         """loads airports data from airports_staging table to airports_production table"""
-        fetch_query = f"""SELECT 
-      s.airport_name, s.airport_iata, s.airport_icao, 
-      s.latitude, s.longitude, s.geoname_id, s.timezone_name, s.gmt_offset,
-      s.country_iso2, s.city_iata_code, s.api_airport_id, ct.city_id -- city_id from cities_table
-      FROM {self.staging_handler.db_config['database']}.{staging_table} s
-      JOIN {self.production_handler.db_config['database']}.{cities_table} ct 
-      ON s.city_iata_code = ct.iata_code
-      JOIN {self.production_handler.db_config['database']}.{countries_table} c
-      ON s.country_iso2 = c.country_iso2
-      WHERE s.city_iata_code IS NOT NULL AND c.country_iso2 IS NOT NULL
-      """
+        fetch_query = f"""
+        SELECT 
+            s.airport_name, 
+            s.airport_iata, 
+            s.airport_icao, 
+            s.latitude, 
+            s.longitude, 
+            s.geoname_id, 
+            s.timezone_name, 
+            s.gmt_offset,
+            s.country_iso2, 
+            s.city_iata_code, 
+            s.api_airport_id, 
+            ct.city_id
+        FROM {self.staging_handler.db_config['database']}.{staging_table} s
+        JOIN {self.production_handler.db_config['database']}.{cities_table} ct 
+            ON s.city_iata_code = ct.iata_code
+        JOIN {self.production_handler.db_config['database']}.{countries_table} c
+            ON s.country_iso2 = c.country_iso2
+        WHERE s.city_iata_code != 'Unknown' 
+            AND c.country_iso2 != 'Unknown'
+        """
 
         upsert_query = f"""
-      INSERT INTO {production_table} (
-      airport_name, airport_iata, airport_icao, latitude, longitude, 
-      geoname_id, timezone_name, gmt_offset, country_iso2, city_iata_code, api_airport_id,
-      airport_city_id
-      ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-      ON DUPLICATE KEY UPDATE 
-      api_airport_id = VALUES(api_airport_id),
-      airport_name=VALUES(airport_name),
-      aiport_iata = VALUES(aiport_iata),
-      airport_icao = VALUES(airport_icao),
-      latitude = VALUES(latitude),
-      longitude = VALUES(longitude),
-      geoname_id = VALUES(geoname_id),
-      gmt_offset = VALUES(gmt_offset),
-      country_iso2 = VALUES(country_iso2),
-      city_iata_code = VALUES(city_iata_code),
-      ;"""
+        INSERT INTO {production_table} (
+            airport_name, 
+            airport_iata, 
+            airport_icao, 
+            latitude, 
+            longitude, 
+            geoname_id, 
+            timezone_name, 
+            gmt_offset, 
+            country_iso2, 
+            city_iata_code, 
+            api_airport_id,
+            airport_city_id
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        ON DUPLICATE KEY UPDATE 
+            airport_name = VALUES(airport_name),
+            airport_iata = VALUES(airport_iata),
+            airport_icao = VALUES(airport_icao),
+            latitude = VALUES(latitude),
+            longitude = VALUES(longitude),
+            geoname_id = VALUES(geoname_id),
+            timezone_name = VALUES(timezone_name),
+            gmt_offset = VALUES(gmt_offset),
+            country_iso2 = VALUES(country_iso2),
+            city_iata_code = VALUES(city_iata_code),
+            api_airport_id = VALUES(api_airport_id),
+            airport_city_id = VALUES(airport_city_id)
+        """
 
         try:
             # fetching data from staging_table to production_table
