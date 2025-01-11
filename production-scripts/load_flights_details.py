@@ -1,5 +1,4 @@
 # importing libraries and packages
-# importing libraries and packages
 from sql_handler.sql_database_handler import SQLDatabaseHandler
 import os
 
@@ -47,14 +46,20 @@ class LoadFlightsDetails:
                 f.departure_estimated_runway,
                 f.departure_actual_runway,
                 f.actual_arrival_time,
-                f.actual_departure_time
+                f.actual_departure_time,
+                f.airline_iata, 
+                f.airline_icao,
+                f.codeshare_airline_name, 
+                f.codeshare_airline_iata, 
+                f.codeshare_airline_icao,
+                f.codeshare_flight_number, 
+                f.codeshare_flight_iata, 
+                f.codeshare_flight_icao
             FROM {self.staging_handler.db_config['database']}.{staging_table} f
             INNER JOIN {self.production_handler.db_config['database']}.{airport_table} dep
-                ON f.departure_iata = dep.airport_iata 
-                OR f.departure_icao = dep.airport_icao 
+                ON (f.departure_iata = dep.airport_iata OR f.departure_icao = dep.airport_icao) 
             INNER JOIN {self.production_handler.db_config['database']}.{airport_table} arr 
-                ON f.arrival_iata = arr.airport_iata 
-                OR f.arrival_icao = arr.airport_icao 
+                ON (f.arrival_iata = arr.airport_iata OR f.arrival_icao = arr.airport_icao) 
             INNER JOIN {self.production_handler.db_config['database']}.{airlines_table} a
                 ON f.airline_icao = a.airline_icao
             WHERE f.flight_number IS NOT NULL 
@@ -97,7 +102,15 @@ class LoadFlightsDetails:
             departure_estimated_runway, 
             departure_actual_runway,
             actual_arrival_time, 
-            actual_departure_time
+            actual_departure_time,
+            airline_iata, 
+            airline_icao,
+            codeshare_airline_name, 
+            codeshare_airline_iata, 
+            codeshare_airline_icao,
+            codeshare_flight_number, 
+            codeshare_flight_iata, 
+            codeshare_flight_icao
         FROM temp_flights;"""
 
         # 3. Insert data from temporary table to production table
@@ -135,9 +148,17 @@ class LoadFlightsDetails:
             departure_estimated_runway, 
             departure_actual_runway,
             actual_arrival_time, 
-            actual_departure_time
+            actual_departure_time,
+            airline_iata,
+            airline_icao,
+            codeshare_airline_name, 
+            codeshare_airline_iata, 
+            codeshare_airline_icao,
+            codeshare_flight_number, 
+            codeshare_flight_iata, 
+            codeshare_flight_icao
         ) VALUES (%s, %s, %s, %s, %s, %s,%s, %s,%s, %s, %s, %s, %s, %s,%s, %s,%s, %s, %s, %s, %s, %s,%s, %s,%s, %s, %s, 
-        %s, %s, %s, %s, %s, %s );"""
+        %s, %s, %s, %s, %s, %s,%s,%s,%s,%s,%s,%s,%s,%s);"""
 
         try:
             # Begin a transaction
