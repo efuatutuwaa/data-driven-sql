@@ -7,7 +7,7 @@ class LoadDeparture:
     def __init__(self, production_handler):
         self.production_handler = production_handler
 
-    def load_arrivals(self, flight_table, departure_table):
+    def load_departure(self, flight_table, departure_table):
         """Loads data from staging to production database"""
         fetch_query = f"""SELECT 
         flight_id,
@@ -34,7 +34,7 @@ class LoadDeparture:
         insert_query = f"""
         INSERT INTO 
         {departure_table} (flight_id,
-                           arrival_airport_id,
+                           departure_airport_id,
                            flight_date,
                            flight_number,
                            flight_status,
@@ -64,7 +64,7 @@ class LoadDeparture:
             for i in range(0, len(staging_data), batch_size):
                 batch = staging_data[i:i + batch_size]
                 self.production_handler.execute_many(insert_query, batch)
-                print(f"Batch {i // batch_size + 1}: Inserted {len(batch)} rows into {arrivals_table}")
+                print(f"Batch {i // batch_size + 1}: Inserted {len(batch)} rows into {departure_table}")
 
         except Exception as err:
             print(f"Error populating {departure_table}: {err}")
@@ -75,7 +75,7 @@ production_handler = SQLDatabaseHandler('production')
 production_handler.connect_to_db()
 
 arrivals_production = LoadDeparture(production_handler)
-arrivals_production.load_arrivals('flight_details', 'departure')
+arrivals_production.load_departure('flight_details', 'departure')
 
 # close database connection
 production_handler.close_db_connection()
