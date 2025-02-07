@@ -1,0 +1,513 @@
+flight_id,flight_date,flight_number,flight_status,airline_name,departure_airport,arrival_airport,departure_city,arrival_city,departure_country,arrival_country,distance,duration,departure_delay,arrival_delay,codeshared_status
+1,2024-12-16,7387,landed,American Airlines,Los Angeles International,Sydney Kingsford Smith Airport,Los Angeles,Sydney,United States,Australia,12060.21,1 days 10:05:00,36,-27,Yes
+2,2024-12-16,5801,landed,American Airlines,Simmons Nott,Charlotte Douglas,New Bern,Charlotte,United States,United States,355.02,0 days 01:32:00,38,-5,No
+3,2024-12-16,3258,landed,American Airlines,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:32:00,14,-20,No
+4,2024-12-16,7616,landed,American Airlines,Seattle-Tacoma International,John Wayne,Seattle,Santa Ana,United States,United States,1575.06,0 days 02:45:00,10,-23,Yes
+5,2024-12-16,8129,landed,American Airlines,Seattle-Tacoma International,Doha International,Seattle,Doha,United States,Qatar,11906.55,1 days 01:35:00,20,-45,Yes
+6,2024-12-16,7559,landed,American Airlines,Seattle-Tacoma International,Bellingham,Seattle,Bellingham,United States,United States,151.30,0 days 00:51:00,13,-12,Yes
+7,2024-12-16,9922,landed,American Airlines,Municipal,Easterwood Field,Lawton,College Station,United States,United States,481.96,0 days 01:25:00,69,35,No
+8,2024-12-16,9279,landed,American Airlines,San Francisco International,San Diego International Airport,San Francisco,San Diego,United States,United States,719.17,0 days 01:37:00,11,-15,Yes
+9,2024-12-16,2792,landed,American Airlines,Mc Carran International,Charlotte Douglas,Las Vegas,Charlotte,United States,United States,3076.70,0 days 07:12:00,18,-12,No
+10,2024-12-16,7003,landed,American Airlines,Chicago O'hare International,Heathrow,Chicago,London,United States,United Kingdom,6344.45,0 days 13:50:00,36,-5,Yes
+11,2024-12-16,8316,landed,American Airlines,John F Kennedy International,Shannon,New York,Shannon,United States,Ireland,4946.90,0 days 11:20:00,29,7,Yes
+12,2024-12-16,9344,landed,American Airlines,San Francisco International,John Wayne,San Francisco,Santa Ana,United States,United States,598.96,0 days 01:34:00,12,-18,Yes
+13,2024-12-16,9421,landed,American Airlines,Seattle-Tacoma International,John Wayne,Seattle,Santa Ana,United States,United States,1575.06,0 days 02:45:00,8,-29,Yes
+14,2024-12-16,2509,landed,American Airlines,San Francisco International,Charlotte Douglas,San Francisco,Charlotte,United States,United States,3688.80,0 days 07:58:00,18,-23,No
+15,2024-12-16,9194,landed,American Airlines,Hyderabad Airport,Indira Gandhi International,Hyderabad,New Delhi,India,India,1265.63,0 days 02:20:00,31,1,Yes
+16,2024-12-16,8936,landed,American Airlines,Los Angeles International,Hong Kong International,Los Angeles,Hong Kong,United States,Hong Kong,11662.37,1 days 08:00:00,72,14,Yes
+17,2024-12-16,7727,landed,American Airlines,Galeao Antonio Carlos Jobim,Pajas Blancas,Rio de Janeiro,Cordoba,Brazil,Argentina,2275.88,0 days 03:50:00,25,1,Yes
+18,2024-12-16,9354,landed,American Airlines,San Diego International Airport,Fresno Air Terminal Airport,San Diego,Fresno,United States,United States,504.63,0 days 01:17:00,78,52,Yes
+19,2024-12-16,6271,landed,Asiana,Chicago O'hare International,Los Angeles International,Chicago,Los Angeles,United States,United States,2802.06,0 days 02:37:00,29,-7,Yes
+20,2024-12-16,6774,landed,Asiana,Suvarnabhumi International,Chhatrapati Shivaji International (Sahar International),Bangkok,Mumbai,Thailand,India,3030.12,0 days 03:05:00,35,6,Yes
+21,2024-12-16,105,landed,"ABX Air, Inc.",Sky Harbor International,Cincinnati/Northern Kentucky,Phoenix,Covington,United States,United States,2519.59,0 days 05:22:00,22,0,No
+22,2024-12-16,5028,landed,Air Canada,Minneapolis - St. Paul International,Denver International,Minneapolis,Denver,United States,United States,1093.93,0 days 01:19:00,8,-27,Yes
+23,2024-12-16,3008,landed,Air Canada,Philadelphia International,Chicago O'hare International,Philadelphia,Chicago,United States,United States,1087.98,0 days 01:24:00,13,-9,Yes
+24,2024-12-16,3527,landed,Air Canada,Honolulu International,San Francisco International,Honolulu,San Francisco,United States,United States,3854.95,0 days 07:07:00,9,7,Yes
+25,2024-12-16,5079,landed,Air Canada,Salt Lake City International,Denver International,Salt Lake City,Denver,United States,United States,628.07,0 days 01:35:00,40,1,Yes
+26,2024-12-16,6090,landed,Air Canada,Los Angeles International,Auckland International,Los Angeles,Auckland,United States,New Zealand,10486.94,1 days 10:00:00,45,4,Yes
+27,2024-12-16,5354,landed,Air Canada,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:30:00,19,-7,Yes
+28,2024-12-16,3760,landed,Air Canada,Mc Carran International,Los Angeles International,Las Vegas,Los Angeles,United States,United States,380.66,0 days 01:19:00,16,-19,Yes
+29,2024-12-16,4404,landed,Air Canada,Los Angeles International,Sky Harbor International,Los Angeles,Phoenix,United States,United States,595.47,0 days 02:27:00,9,-19,Yes
+30,2024-12-16,6261,landed,Air Canada,Haneda Airport,Miyazaki,Tokyo,Miyazaki,Japan,Japan,872.85,0 days 01:50:00,18,9,Yes
+31,2024-12-16,3328,landed,Air Canada,Chicago O'hare International,Mc Carran International,Chicago,Las Vegas,United States,United States,2431.08,0 days 02:07:00,41,9,Yes
+32,2024-12-16,5501,landed,Air Canada,Hartsfield-jackson Atlanta International,Denver International,Atlanta,Denver,United States,United States,1924.77,0 days 01:30:00,3,-24,Yes
+33,2024-12-16,5273,landed,Air Canada,George Bush Intercontinental,Juan Santamaría International,Houston,San Jose,United States,Costa Rica,2504.53,0 days 03:43:00,45,14,Yes
+34,2024-12-16,3623,landed,Air Canada,Denver International,Mineta San Jose International Airport,Denver,San Jose,United States,United States,1521.87,0 days 01:45:00,14,-11,Yes
+35,2024-12-16,5385,landed,Air Canada,Denver International,John Wayne,Denver,Santa Ana,United States,United States,1358.24,0 days 01:29:00,15,-14,Yes
+36,2024-12-16,3581,landed,Air Canada,Washington Dulles International,Charlotte Douglas,Washington,Charlotte,United States,United States,517.71,0 days 01:33:00,20,-14,Yes
+37,2024-12-16,3492,landed,Air Canada,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:28:00,5,-45,Yes
+38,2024-12-16,9186,landed,Air Canada,Frankfurt International Airport,El Prat De Llobregat,Frankfurt,Barcelona,Germany,Spain,1094.79,0 days 02:05:00,15,-16,No
+39,2024-12-16,3392,landed,Air Europa,John F Kennedy International,Barajas,New York,Madrid,United States,Spain,5762.51,0 days 13:16:00,62,45,Yes
+40,2024-12-16,3117,landed,Air Europa,Barajas,Leonardo Da Vinci (Fiumicino),Madrid,Rome,Spain,Italy,1331.35,0 days 02:30:00,17,-18,No
+41,2024-12-16,1446,landed,Aegean Airlines,Franz Josef Strauss,Charles De Gaulle,Munich,Paris,Germany,France,680.59,0 days 01:40:00,4,-29,No
+42,2024-12-16,9915,landed,Air France,John F Kennedy International,Manchester Airport,New York,Manchester,United States,United Kingdom,5362.29,0 days 11:59:00,59,17,Yes
+43,2024-12-16,5918,landed,Air France,Minneapolis - St. Paul International,George Bush Intercontinental,Minneapolis,Houston,United States,United States,1667.23,0 days 03:03:00,9,-23,Yes
+44,2024-12-16,2554,landed,Air France,Philadelphia International,Hartsfield-jackson Atlanta International,Philadelphia,Atlanta,United States,United States,1072.57,0 days 02:20:00,5,-31,Yes
+45,2024-12-16,8828,landed,Air France,Washington Dulles International,Hartsfield-jackson Atlanta International,Washington,Atlanta,United States,United States,860.96,0 days 01:52:00,14,-11,Yes
+46,2024-12-16,2086,landed,Air France,Detroit Metropolitan Wayne County,Orlando International,Detroit,Orlando,United States,United States,1542.87,0 days 02:45:00,11,-21,Yes
+47,2024-12-16,5714,landed,Air France,Los Angeles International,Dallas/Fort Worth International,Los Angeles,Dallas,United States,United States,1983.36,0 days 05:00:00,-2,-27,Yes
+48,2024-12-16,2840,landed,Air France,Minneapolis - St. Paul International,Rapid City Regional Airport,Minneapolis,Rapid City,United States,United States,786.89,0 days 01:01:00,8,-32,Yes
+49,2024-12-16,5747,landed,Air France,Los Angeles International,Denver International,Los Angeles,Denver,United States,United States,1384.56,0 days 03:25:00,5,-33,Yes
+50,2024-12-16,6069,landed,Air France,Internacional Benito Juarez,Aguascalients,Mexico City,Aguascalientes,Mexico,Mexico,421.09,0 days 01:23:00,40,2,Yes
+51,2024-12-16,5999,landed,Air France,John F Kennedy International,Luis Munoz Marin International,New York,San Juan,United States,Puerto Rico,2578.58,0 days 05:11:00,52,8,Yes
+52,2024-12-16,2854,landed,Air France,John F Kennedy International,Dallas/Fort Worth International,New York,Dallas,United States,United States,2234.03,0 days 03:17:00,24,-17,Yes
+53,2024-12-16,3704,landed,Air France,Seattle-Tacoma International,Honolulu International,Seattle,Honolulu,United States,United States,4307.48,0 days 04:31:00,26,-9,Yes
+54,2024-12-16,6889,landed,Air France,Hartsfield-jackson Atlanta International,Lambert-St. Louis International,Atlanta,St Louis,United States,United States,776.99,0 days 00:45:00,11,-18,Yes
+55,2024-12-16,3547,landed,Air France,Detroit Metropolitan Wayne County,Nashville International,Detroit,Nashville,United States,United States,733.35,0 days 00:44:00,11,-18,Yes
+56,2024-12-16,6835,landed,Air France,Hartsfield-jackson Atlanta International,Philadelphia International,Atlanta,Philadelphia,United States,United States,1072.57,0 days 01:52:00,64,35,Yes
+57,2024-12-16,3467,landed,Air France,Hartsfield-jackson Atlanta International,George Bush Intercontinental,Atlanta,Houston,United States,United States,1106.21,0 days 01:15:00,18,-9,Yes
+58,2024-12-16,2022,landed,Air France,Galeao Antonio Carlos Jobim,Augusto Severo,Rio de Janeiro,Natal,Brazil,Brazil,2065.40,0 days 03:05:00,12,-15,Yes
+59,2024-12-16,5572,landed,Air France,Internacional Benito Juarez,Juan Santamaría International,Mexico City,San Jose,Mexico,Costa Rica,1910.57,0 days 03:08:00,28,-16,Yes
+60,2024-12-16,2473,landed,Air France,Hartsfield-jackson Atlanta International,Albany International,Atlanta,Albany,United States,United States,1372.09,0 days 02:13:00,4,-23,Yes
+61,2024-12-16,8538,landed,Air France,Hartsfield-jackson Atlanta International,Pensacola International Airport,Atlanta,Pensacola,United States,United States,436.94,0 days 00:14:00,21,-8,Yes
+62,2024-12-16,8568,landed,Air France,Hartsfield-jackson Atlanta International,Nashville International,Atlanta,Nashville,United States,United States,343.41,0 days 00:08:00,18,-8,Yes
+63,2024-12-16,8958,landed,Air France,Los Angeles International,Sydney Kingsford Smith Airport,Los Angeles,Sydney,United States,Australia,12060.21,1 days 10:10:00,31,7,Yes
+64,2024-12-16,9654,landed,Air France,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:20:00,32,109,Yes
+65,2024-12-16,3548,landed,Air France,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:29:00,33,2,Yes
+66,2024-12-16,5770,landed,Air France,Hartsfield-jackson Atlanta International,Yeager,Atlanta,Charleston,United States,United States,584.95,0 days 01:27:00,9,-24,Yes
+67,2024-12-16,6845,landed,Air France,Hartsfield-jackson Atlanta International,Los Angeles International,Atlanta,Los Angeles,United States,United States,3124.27,0 days 01:55:00,17,-13,Yes
+68,2024-12-16,7788,landed,Air India,El Nuevo Dorado International,John F Kennedy International,Bogota,New York,Colombia,United States,3996.92,0 days 05:50:00,19,-31,Yes
+69,2024-12-16,1855,landed,Alpine Air Express,Yampa Valley,Denver International,Hayden,Denver,United States,United States,227.73,0 days 01:04:00,12,-12,No
+70,2024-12-16,3408,landed,SriLankan,Melbourne - Tullamarine Airport,Brisbane International,Melbourne,Brisbane,Australia,Australia,1377.98,0 days 01:15:00,63,41,Yes
+71,2024-12-16,1721,landed,"Ameriflight, LLC",Rick Husband Amarillo International,Lubbock Preston Smith International,Amarillo,Lubbock,United States,United States,174.02,0 days 00:54:00,13,0,No
+72,2024-12-16,1965,landed,"Ameriflight, LLC",State,Portland International,Hermiston,Portland,United States,United States,258.55,0 days 00:55:00,10,15,No
+73,2024-12-16,1919,landed,"Ameriflight, LLC",Eugene,Portland International,Eugene,Portland,United States,United States,170.56,0 days 00:50:00,30,15,No
+74,2024-12-16,1651,landed,"Ameriflight, LLC",Gogebic County,Ford,Ironwood,Iron Mountain,United States,United States,174.26,0 days 00:47:00,-13,-28,No
+75,2024-12-16,1909,landed,"Ameriflight, LLC",Rogue Valley International - Medford Airport,Portland International,Medford,Portland,United States,United States,358.75,0 days 01:00:00,12,-6,No
+76,2024-12-16,7685,landed,Aeromexico,John F Kennedy International,Manchester Airport,New York,Manchester,United States,United Kingdom,5362.29,0 days 11:59:00,59,17,Yes
+77,2024-12-16,3341,landed,Aeromexico,Washington Dulles International,Hartsfield-jackson Atlanta International,Washington,Atlanta,United States,United States,860.96,0 days 01:52:00,14,-11,Yes
+78,2024-12-16,3882,landed,Aeromexico,Los Angeles International,Dallas/Fort Worth International,Los Angeles,Dallas,United States,United States,1983.36,0 days 05:00:00,-2,-27,Yes
+79,2024-12-16,4201,landed,Aeromexico,Minneapolis - St. Paul International,Rapid City Regional Airport,Minneapolis,Rapid City,United States,United States,786.89,0 days 01:01:00,8,-32,Yes
+80,2024-12-16,3458,landed,Aeromexico,Detroit Metropolitan Wayne County,Syracuse Hancock International Airport,Detroit,Syracuse,United States,United States,600.64,0 days 01:24:00,14,-22,Yes
+81,2024-12-16,4065,landed,Aeromexico,Minneapolis - St. Paul International,Seattle-Tacoma International,Minneapolis,Seattle,United States,United States,2245.08,0 days 02:05:00,28,-18,Yes
+82,2024-12-16,3880,landed,Aeromexico,Los Angeles International,Denver International,Los Angeles,Denver,United States,United States,1384.56,0 days 03:25:00,5,-33,Yes
+83,2024-12-16,4301,landed,Aeromexico,Seattle-Tacoma International,San Francisco International,Seattle,San Francisco,United States,United States,1092.92,0 days 02:20:00,14,-43,Yes
+84,2024-12-16,4028,landed,Aeromexico,Dane County Regional,Hartsfield-jackson Atlanta International,Madison,Atlanta,United States,United States,1138.57,0 days 03:12:00,26,-2,Yes
+85,2024-12-16,3155,landed,Aeromexico,Hartsfield-jackson Atlanta International,Washington Dulles International,Atlanta,Washington,United States,United States,860.96,0 days 01:41:00,8,-15,Yes
+86,2024-12-16,3820,landed,Aeromexico,Sky Harbor International,Detroit Metropolitan Wayne County,Phoenix,Detroit,United States,United States,2682.67,0 days 05:41:00,15,-18,Yes
+87,2024-12-16,3003,landed,Aeromexico,Ted Stevens Anchorage International Airport,Minneapolis - St. Paul International,Anchorage,Minneapolis,United States,United States,4042.52,0 days 08:32:00,11,-38,Yes
+88,2024-12-16,4019,landed,Aeromexico,Detroit Metropolitan Wayne County,Minneapolis - St. Paul International,Detroit,Minneapolis,United States,United States,847.47,0 days 00:57:00,16,-16,Yes
+89,2024-12-16,7673,landed,Aeromexico,San Francisco International,Heathrow,San Francisco,London,United States,United Kingdom,8617.54,0 days 18:15:00,39,4,Yes
+90,2024-12-16,3623,landed,Aeromexico,Detroit Metropolitan Wayne County,Nashville International,Detroit,Nashville,United States,United States,733.35,0 days 00:44:00,11,-18,Yes
+91,2024-12-16,3310,landed,Aeromexico,Hartsfield-jackson Atlanta International,Philadelphia International,Atlanta,Philadelphia,United States,United States,1072.57,0 days 01:52:00,64,35,Yes
+92,2024-12-16,4477,landed,Aeromexico,Hartsfield-jackson Atlanta International,Savannah/Hilton Head,Atlanta,Savannah,United States,United States,345.13,0 days 01:01:00,10,-17,Yes
+93,2024-12-16,4240,landed,Aeromexico,Salt Lake City International,San Antonio International,Salt Lake City,San Antonio,United States,United States,1749.72,0 days 03:50:00,3,-37,Yes
+94,2024-12-16,90,landed,Aeromexico,Gen Mariano Escobedo,Seoul (Incheon),Monterrey,Seoul,Mexico,South Korea,11467.10,1 days 06:50:00,12,-37,No
+95,2024-12-16,4047,landed,Aeromexico,Minneapolis - St. Paul International,Hector Field,Minneapolis,Fargo,United States,United States,359.81,0 days 01:18:00,44,13,Yes
+96,2024-12-16,3018,landed,Aeromexico,Hartsfield-jackson Atlanta International,Albany International,Atlanta,Albany,United States,United States,1372.09,0 days 02:13:00,4,-23,Yes
+97,2024-12-16,3286,landed,Aeromexico,Hartsfield-jackson Atlanta International,Pensacola International Airport,Atlanta,Pensacola,United States,United States,436.94,0 days 00:14:00,21,-8,Yes
+98,2024-12-16,3597,landed,Aeromexico,Hartsfield-jackson Atlanta International,LaGuardia,Atlanta,New York,United States,United States,1225.55,0 days 02:12:00,72,43,Yes
+99,2024-12-16,3614,landed,Aeromexico,Hartsfield-jackson Atlanta International,Newark Liberty International,Atlanta,Newark,United States,United States,1199.22,0 days 02:05:00,11,-19,Yes
+100,2024-12-16,7661,landed,Aeromexico,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:20:00,32,109,Yes
+101,2024-12-16,3510,landed,Aeromexico,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,37,20,Yes
+102,2024-12-16,3083,landed,Aeromexico,Hartsfield-jackson Atlanta International,Yeager,Atlanta,Charleston,United States,United States,584.95,0 days 01:27:00,9,-24,Yes
+103,2024-12-16,4828,landed,Aeromexico,Hartsfield-jackson Atlanta International,Los Angeles International,Atlanta,Los Angeles,United States,United States,3124.27,0 days 01:55:00,17,-13,Yes
+104,2024-12-16,3153,landed,Aeromexico,Hartsfield-jackson Atlanta International,Washington Dulles International,Atlanta,Washington,United States,United States,860.96,0 days 01:42:00,19,-4,Yes
+105,2024-12-16,7594,landed,All Nippon Airways,Chicago O'hare International,Philadelphia International,Chicago,Philadelphia,United States,United States,1087.98,0 days 03:03:00,55,20,Yes
+106,2024-12-16,7820,landed,All Nippon Airways,Washington Dulles International,El Nuevo Dorado International,Washington,Bogota,United States,Colombia,3823.49,0 days 05:30:00,17,4,Yes
+107,2024-12-16,7902,landed,All Nippon Airways,Frankfurt International Airport,Copernicus Airport,Frankfurt,Wroclaw,Germany,Poland,599.32,0 days 01:20:00,8,-10,No
+108,2024-12-16,5388,landed,All Nippon Airways,Vancouver International,Winnipeg,Vancouver,Winnipeg,Canada,Canada,1864.14,0 days 04:48:00,18,-8,Yes
+109,2024-12-16,7284,landed,All Nippon Airways,Seattle-Tacoma International,San Francisco International,Seattle,San Francisco,United States,United States,1092.92,0 days 02:17:00,27,-11,Yes
+110,2024-12-16,7217,landed,All Nippon Airways,Mc Carran International,Los Angeles International,Las Vegas,Los Angeles,United States,United States,380.66,0 days 01:19:00,16,-19,Yes
+111,2024-12-16,7818,landed,All Nippon Airways,El Nuevo Dorado International,John F Kennedy International,Bogota,New York,Colombia,United States,3996.92,0 days 05:50:00,19,-31,Yes
+112,2024-12-16,7014,landed,All Nippon Airways,Chicago O'hare International,Lester B. Pearson International,Chicago,Toronto,United States,Canada,702.03,0 days 02:53:00,28,-20,Yes
+113,2024-12-16,7212,landed,All Nippon Airways,George Bush Intercontinental,Aeroporto Internacional Guarulhos,Houston,Sao Paulo,United States,Brazil,7903.88,0 days 12:40:00,52,19,Yes
+114,2024-12-16,7252,landed,All Nippon Airways,George Bush Intercontinental,Arturo Merino Benitez,Houston,Santiago,United States,Chile,7505.47,0 days 12:25:00,70,23,Yes
+115,2024-12-16,7210,landed,All Nippon Airways,George Bush Intercontinental,Galeao Antonio Carlos Jobim,Houston,Rio de Janeiro,United States,Brazil,8088.09,0 days 13:15:00,47,10,Yes
+116,2024-12-16,7262,landed,All Nippon Airways,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:29:00,7,-22,Yes
+117,2024-12-16,1714,landed,Air New Zealand,Brisbane International,Sydney Kingsford Smith Airport,Brisbane,Sydney,Australia,Australia,749.12,0 days 02:35:00,13,-13,Yes
+118,2024-12-16,6761,landed,Air New Zealand,Minneapolis - St. Paul International,George Bush Intercontinental,Minneapolis,Houston,United States,United States,1667.23,0 days 03:10:00,13,-16,Yes
+119,2024-12-16,2745,landed,Air New Zealand,Chicago O'hare International,Philadelphia International,Chicago,Philadelphia,United States,United States,1087.98,0 days 03:03:00,55,20,Yes
+120,2024-12-16,2738,landed,Air New Zealand,Philadelphia International,Chicago O'hare International,Philadelphia,Chicago,United States,United States,1087.98,0 days 01:24:00,13,-9,Yes
+121,2024-12-16,9176,landed,Air New Zealand,Washington Dulles International,San Francisco International,Washington,San Francisco,United States,United States,3885.25,0 days 03:07:00,12,-18,Yes
+122,2024-12-16,9181,landed,Air New Zealand,Washington Dulles International,San Francisco International,Washington,San Francisco,United States,United States,3885.25,0 days 03:02:00,17,-9,Yes
+123,2024-12-16,9371,landed,Air New Zealand,San Francisco International,Sky Harbor International,San Francisco,Phoenix,United States,United States,1047.99,0 days 03:01:00,29,-3,Yes
+124,2024-12-16,9426,landed,Air New Zealand,Seattle-Tacoma International,San Francisco International,Seattle,San Francisco,United States,United States,1092.92,0 days 02:17:00,27,-11,Yes
+125,2024-12-16,9012,landed,Air New Zealand,San Francisco International,Logan International,San Francisco,Boston,United States,United States,4341.36,0 days 08:38:00,13,-37,Yes
+126,2024-12-16,2497,landed,Air New Zealand,Los Angeles International,Seattle-Tacoma International,Los Angeles,Seattle,United States,United States,1536.12,0 days 03:00:00,2,-22,Yes
+127,2024-12-16,9274,landed,Air New Zealand,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:29:00,25,-9,Yes
+128,2024-12-16,9834,landed,Air New Zealand,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:30:00,19,-7,Yes
+129,2024-12-16,2535,landed,Air New Zealand,Chicago O'hare International,LaGuardia,Chicago,New York,United States,United States,1177.20,0 days 03:10:00,8,-16,Yes
+130,2024-12-16,9862,landed,Air New Zealand,Chicago O'hare International,Lester B. Pearson International,Chicago,Toronto,United States,Canada,702.03,0 days 02:53:00,28,-20,Yes
+131,2024-12-16,9646,landed,Air New Zealand,George Bush Intercontinental,Los Angeles International,Houston,Los Angeles,United States,United States,2215.27,0 days 01:47:00,46,11,Yes
+132,2024-12-16,6849,landed,Air New Zealand,George Bush Intercontinental,Chicago O'hare International,Houston,Chicago,United States,United States,1490.54,0 days 02:29:00,14,-13,Yes
+133,2024-12-16,9208,landed,Air New Zealand,George Bush Intercontinental,San Francisco International,Houston,San Francisco,United States,United States,2628.57,0 days 02:22:00,54,13,Yes
+134,2024-12-16,6872,landed,Air New Zealand,George Bush Intercontinental,Sky Harbor International,Houston,Phoenix,United States,United States,1620.06,0 days 02:00:00,60,20,Yes
+135,2024-12-16,9575,landed,Air New Zealand,Los Angeles International,Washington Dulles International,Los Angeles,Washington,United States,United States,3674.64,0 days 07:48:00,14,-18,Yes
+136,2024-12-16,9161,landed,Air New Zealand,San Francisco International,Washington Dulles International,San Francisco,Washington,United States,United States,3885.25,0 days 08:08:00,14,-42,Yes
+137,2024-12-16,6585,landed,Air New Zealand,George Bush Intercontinental,Newark Liberty International,Houston,Newark,United States,United States,2249.58,0 days 04:27:00,41,8,Yes
+138,2024-12-16,2347,landed,Air New Zealand,Chicago O'hare International,Newark Liberty International,Chicago,Newark,United States,United States,1153.70,0 days 03:08:00,19,-23,Yes
+139,2024-12-16,4011,landed,Air New Zealand,Los Angeles International,Nadi International,Los Angeles,Nadi,United States,Fiji,8891.03,1 days 07:10:00,27,4,Yes
+140,2024-12-16,9270,landed,Air New Zealand,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:29:00,7,-22,Yes
+141,2024-12-16,7206,landed,Aerolineas Argentinas,Barajas,Leonardo Da Vinci (Fiumicino),Madrid,Rome,Spain,Italy,1331.35,0 days 02:30:00,17,-18,No
+142,2024-12-16,64,landed,Alaska Airlines,Boundary Bay,Petersburg James A Johnson,Juneau,Petersburg,United States,United States,198.66,0 days 00:48:00,12,-27,No
+143,2024-12-16,177,landed,Alaska Airlines,Ted Stevens Anchorage International Airport,Kodiak Airport,Anchorage,Kodiak,United States,United States,405.83,0 days 01:03:00,12,-21,No
+144,2024-12-16,196,landed,Alaska Airlines,Kodiak Airport,Ted Stevens Anchorage International Airport,Kodiak,Anchorage,United States,United States,405.83,0 days 00:57:00,6,-19,No
+145,2024-12-16,37,landed,Alaska Airlines,Snohomish County - Paine Field,Mc Carran International,Everett,Las Vegas,United States,United States,1439.28,0 days 02:32:00,37,3,No
+146,2024-12-16,7652,landed,Air SERBIA a.d. Beograd,Prague Vaclav Havel Airport,Riga International,Prague,Riga,Czech Republic,Latvia,991.50,0 days 02:45:00,20,48,Yes
+147,2024-12-16,8505,landed,Air SERBIA a.d. Beograd,Sky Harbor International,John F Kennedy International,Phoenix,New York,United States,United States,3456.31,0 days 06:32:00,28,3,Yes
+148,2024-12-16,8164,landed,Air SERBIA a.d. Beograd,Istanbul Airport,Esenboga International,Istanbul,Ankara,Turkey,Turkey,365.74,0 days 01:10:00,12,20,Yes
+149,2024-12-16,3499,landed,Air Transport International Inc.,Sacramento International,Seattle-Tacoma International,Sacramento,Seattle,United States,United States,974.81,0 days 01:59:00,11,-15,No
+150,2024-12-16,8300,landed,Austrian,Philadelphia International,Lester B. Pearson International,Philadelphia,Toronto,United States,Canada,556.80,0 days 01:36:00,10,-26,Yes
+151,2024-12-16,7848,landed,Austrian,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:30:00,19,-7,Yes
+152,2024-12-16,8380,landed,Austrian,Lester B. Pearson International,Leonardo Da Vinci (Fiumicino),Toronto,Rome,Canada,Italy,7085.22,0 days 14:45:00,44,1,Yes
+153,2024-12-16,7749,landed,Austrian,Newark Liberty International,Lambert-St. Louis International,Newark,St Louis,United States,United States,1399.30,0 days 01:59:00,37,1,Yes
+154,2024-12-16,7920,landed,Austrian,Washington Dulles International,Leonardo Da Vinci (Fiumicino),Washington,Rome,United States,Italy,7231.67,0 days 14:45:00,35,2,Yes
+155,2024-12-16,7748,landed,Austrian,Newark Liberty International,Schiphol,Newark,Amsterdam,United States,Netherlands,5869.30,0 days 13:10:00,44,14,Yes
+156,2024-12-16,8281,landed,Austrian,Frankfurt International Airport,Lester B. Pearson International,Frankfurt,Toronto,Germany,Canada,6341.51,0 days 03:15:00,33,-16,Yes
+157,2024-12-16,2148,landed,AVIANCA,Los Angeles International,Seattle-Tacoma International,Los Angeles,Seattle,United States,United States,1536.12,0 days 03:00:00,2,-22,Yes
+158,2024-12-16,2047,landed,AVIANCA,Washington Dulles International,Sky Harbor International,Washington,Phoenix,United States,United States,3141.22,0 days 03:09:00,15,-17,Yes
+159,2024-12-16,6208,landed,AVIANCA,Barajas,Leonardo Da Vinci (Fiumicino),Madrid,Rome,Spain,Italy,1331.35,0 days 02:30:00,17,-18,No
+160,2024-12-16,2001,landed,AVIANCA,Miami International Airport,Newark Liberty International,Miami,Newark,United States,United States,1749.27,0 days 03:06:00,59,20,Yes
+161,2024-12-16,4500,landed,AVIANCA,Los Angeles International,Taiwan Taoyuan International (Chiang Kai Shek International),Los Angeles,Taipei,United States,Taiwan,10923.11,1 days 06:40:00,39,-16,Yes
+162,2024-12-16,2111,landed,AVIANCA,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:28:00,5,-45,Yes
+163,2024-12-16,354,landed,Air India Charters Limited,Sharjah,Kozhikode Airport,Sharjah,Kozhikode,United Arab Emirates,India,2665.62,0 days 05:25:00,183,151,No
+164,2024-12-16,620,landed,AirAsia Berhad dba AirAsia,Don Muang,Beijing Daxing International Airport,Bangkok,Beijing,Thailand,China,3238.72,0 days 05:40:00,20,4,No
+165,2024-12-16,3109,landed,Alitalia,John F Kennedy International,Luis Munoz Marin International,New York,San Juan,United States,Puerto Rico,2578.58,0 days 05:11:00,52,8,Yes
+166,2024-12-16,3484,landed,Alitalia,Seattle-Tacoma International,John F Kennedy International,Seattle,New York,United States,United States,3885.34,0 days 08:21:00,22,-27,Yes
+167,2024-12-16,3088,landed,Alitalia,Raleigh-durham International Airport,John F Kennedy International,Raleigh,New York,United States,United States,686.74,0 days 01:47:00,14,-28,Yes
+168,2024-12-16,2751,landed,Alitalia,San Francisco International,John F Kennedy International,San Francisco,New York,United States,United States,4152.34,0 days 08:29:00,17,-31,Yes
+169,2024-12-16,3198,landed,Alitalia,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,37,20,Yes
+170,2024-12-16,9938,landed,Silk Way West Airlines,Heydar Aliyev International (Bina International),Barajas,Baku,Madrid,Azerbaijan,Spain,4463.21,0 days 03:30:00,26,-32,No
+171,2024-12-16,7621,landed,British Airways,Los Angeles International,Portland International,Los Angeles,Portland,United States,United States,1342.90,0 days 02:34:00,16,-11,Yes
+172,2024-12-16,1615,landed,British Airways,Philadelphia International,Charles De Gaulle,Philadelphia,Paris,United States,France,5985.53,0 days 13:20:00,64,43,Yes
+173,2024-12-16,6808,landed,British Airways,Philadelphia International,Logan International,Philadelphia,Boston,United States,United States,449.12,0 days 01:27:00,8,-23,Yes
+174,2024-12-16,5398,landed,British Airways,Philadelphia International,Mc Carran International,Philadelphia,Las Vegas,United States,United States,3493.64,0 days 02:32:00,3,-30,Yes
+175,2024-12-16,5439,landed,British Airways,Philadelphia International,San Francisco International,Philadelphia,San Francisco,United States,United States,4048.84,0 days 03:16:00,37,22,Yes
+176,2024-12-16,5436,landed,British Airways,Philadelphia International,San Diego International Airport,Philadelphia,San Diego,United States,United States,3806.45,0 days 02:52:00,15,-20,Yes
+177,2024-12-16,6541,landed,British Airways,Dallas/Fort Worth International,San Francisco International,Dallas,San Francisco,United States,United States,2353.35,0 days 01:52:00,69,43,Yes
+178,2024-12-16,7581,landed,British Airways,Seattle-Tacoma International,Missoula International,Seattle,Missoula,United States,United States,623.57,0 days 02:20:00,33,9,Yes
+179,2024-12-16,4797,landed,British Airways,Los Angeles International,Philadelphia International,Los Angeles,Philadelphia,United States,United States,3856.08,0 days 08:09:00,11,-29,Yes
+180,2024-12-16,8990,landed,British Airways,Cork,Glasgow International,Cork,Glasgow,Ireland,United Kingdom,519.78,0 days 01:40:00,12,-14,Yes
+181,2024-12-16,6908,landed,British Airways,Sky Harbor International,John F Kennedy International,Phoenix,New York,United States,United States,3456.31,0 days 06:47:00,10,-27,Yes
+182,2024-12-16,4809,landed,British Airways,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:32:00,14,-20,Yes
+183,2024-12-16,2410,landed,British Airways,Dallas/Fort Worth International,Minneapolis - St. Paul International,Dallas,Minneapolis,United States,United States,1372.80,0 days 02:22:00,53,23,Yes
+184,2024-12-16,4255,landed,British Airways,Barajas,Ezeiza Ministro Pistarini,Madrid,Buenos Aires,Spain,Argentina,10083.72,0 days 09:10:00,32,9,Yes
+185,2024-12-16,6904,landed,British Airways,Sky Harbor International,Fresno Air Terminal Airport,Phoenix,Fresno,United States,United States,793.81,0 days 00:44:00,26,-4,Yes
+186,2024-12-16,7532,landed,British Airways,Kahului,Seattle-Tacoma International,Maui,Seattle,United States,United States,4249.57,0 days 07:46:00,10,-53,Yes
+187,2024-12-16,6430,landed,British Airways,San Francisco International,San Diego International Airport,San Francisco,San Diego,United States,United States,719.17,0 days 01:37:00,11,-15,Yes
+188,2024-12-16,6445,landed,British Airways,Los Angeles International,Mc Carran International,Los Angeles,Las Vegas,United States,United States,380.66,0 days 01:18:00,13,-27,Yes
+189,2024-12-16,6554,landed,British Airways,Los Angeles International,Mc Carran International,Los Angeles,Las Vegas,United States,United States,380.66,0 days 01:17:00,12,-29,Yes
+190,2024-12-16,5287,landed,British Airways,Chicago O'hare International,Sky Harbor International,Chicago,Phoenix,United States,United States,2312.38,0 days 02:54:00,29,-10,Yes
+191,2024-12-16,5230,landed,British Airways,Chicago O'hare International,Los Angeles International,Chicago,Los Angeles,United States,United States,2802.06,0 days 02:28:00,18,-13,Yes
+192,2024-12-16,5239,landed,British Airways,Chicago O'hare International,LaGuardia,Chicago,New York,United States,United States,1177.20,0 days 03:01:00,13,-2,Yes
+193,2024-12-16,6130,landed,British Airways,John F Kennedy International,Shannon,New York,Shannon,United States,Ireland,4946.90,0 days 11:20:00,29,7,Yes
+194,2024-12-16,7511,landed,British Airways,Seattle-Tacoma International,Fairbanks International Airport,Seattle,Fairbanks,United States,United States,2462.96,0 days 02:49:00,17,128,Yes
+195,2024-12-16,6930,landed,British Airways,Sky Harbor International,John Wayne,Phoenix,Santa Ana,United States,United States,543.65,0 days 00:23:00,11,-16,Yes
+196,2024-12-16,4769,landed,British Airways,Los Angeles International,John F Kennedy International,Los Angeles,New York,United States,United States,3973.38,0 days 08:28:00,11,4,Yes
+197,2024-12-16,4285,landed,British Airways,Barajas,Internacional Benito Juarez,Madrid,Mexico City,Spain,Mexico,9066.65,0 days 05:15:00,48,5,Yes
+198,2024-12-16,5816,landed,British Airways,Melbourne - Tullamarine Airport,Doha International,Melbourne,Doha,Australia,Qatar,11961.77,0 days 06:20:00,24,-10,Yes
+199,2024-12-16,9098,landed,Brussels Airlines,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:30:00,19,-7,Yes
+200,2024-12-16,8843,landed,Brussels Airlines,Washington Dulles International,Sky Harbor International,Washington,Phoenix,United States,United States,3141.22,0 days 03:09:00,15,-17,Yes
+201,2024-12-16,8945,landed,Brussels Airlines,Washington Dulles International,Leonardo Da Vinci (Fiumicino),Washington,Rome,United States,Italy,7231.67,0 days 14:45:00,35,2,Yes
+202,2024-12-16,9003,landed,China Airlines,Los Angeles International,Dallas/Fort Worth International,Los Angeles,Dallas,United States,United States,1983.36,0 days 05:00:00,-2,-27,Yes
+203,2024-12-16,9889,landed,China Airlines,Los Angeles International,Denver International,Los Angeles,Denver,United States,United States,1384.56,0 days 03:25:00,5,-33,Yes
+204,2024-12-16,9868,landed,China Airlines,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:29:00,33,2,Yes
+205,2024-12-16,5566,landed,Air China Limited,Dali,Zhaotong,Dali City,Zhaotong,China,China,392.44,0 days 01:10:00,3,9,Yes
+206,2024-12-16,7231,landed,Air China Limited,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:28:00,5,-45,Yes
+207,2024-12-16,5100,landed,"Zhejiang Loong Airlines Co., Ltd",Dali,Zhaotong,Dali City,Zhaotong,China,China,392.44,0 days 01:10:00,3,9,Yes
+208,2024-12-16,8726,landed,China Eastern,Detroit Metropolitan Wayne County,Orlando International,Detroit,Orlando,United States,United States,1542.87,0 days 02:45:00,11,-21,Yes
+209,2024-12-16,8719,landed,China Eastern,Los Angeles International,Dallas/Fort Worth International,Los Angeles,Dallas,United States,United States,1983.36,0 days 05:00:00,-2,-27,Yes
+210,2024-12-16,8787,landed,China Eastern,Seattle-Tacoma International,Mc Carran International,Seattle,Las Vegas,United States,United States,1393.76,0 days 02:35:00,9,-33,Yes
+211,2024-12-16,8663,landed,China Eastern,Seattle-Tacoma International,Honolulu International,Seattle,Honolulu,United States,United States,4307.48,0 days 04:31:00,26,-9,Yes
+212,2024-12-16,8728,landed,China Eastern,Detroit Metropolitan Wayne County,Minneapolis - St. Paul International,Detroit,Minneapolis,United States,United States,847.47,0 days 00:57:00,16,-16,Yes
+213,2024-12-16,8687,landed,China Eastern,Seattle-Tacoma International,Logan International,Seattle,Boston,United States,United States,4003.88,0 days 08:25:00,19,-32,Yes
+214,2024-12-16,8789,landed,China Eastern,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,37,20,Yes
+215,2024-12-16,4990,landed,China Eastern,Barajas,Jorge Chavez International,Madrid,Lima,Spain,Peru,9524.61,0 days 06:05:00,22,-30,Yes
+216,2024-12-16,5105,landed,Condor,Seattle-Tacoma International,Mc Carran International,Seattle,Las Vegas,United States,United States,1393.76,0 days 02:32:00,16,-26,Yes
+217,2024-12-16,5060,landed,Condor,Seattle-Tacoma International,Los Angeles International,Seattle,Los Angeles,United States,United States,1536.12,0 days 02:49:00,5,-43,Yes
+218,2024-12-16,2866,landed,Hainan Airlines,Shenyang,Hangzhou,Shenyang,Hangzhou,China,China,1320.04,0 days 02:35:00,20,3,Yes
+219,2024-12-16,1288,landed,COPA Airlines,Salt Lake City International,Denver International,Salt Lake City,Denver,United States,United States,628.07,0 days 01:35:00,40,1,Yes
+220,2024-12-16,1076,landed,COPA Airlines,Denver International,Municipal,Denver,Hays,United States,United States,477.36,0 days 02:17:00,5,-28,Yes
+221,2024-12-16,1445,landed,COPA Airlines,Seattle-Tacoma International,San Francisco International,Seattle,San Francisco,United States,United States,1092.92,0 days 02:17:00,27,-11,Yes
+222,2024-12-16,2082,landed,COPA Airlines,Los Angeles International,Seattle-Tacoma International,Los Angeles,Seattle,United States,United States,1536.12,0 days 03:00:00,2,-22,Yes
+223,2024-12-16,1062,landed,COPA Airlines,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:29:00,25,-9,Yes
+224,2024-12-16,1043,landed,COPA Airlines,Mc Carran International,Los Angeles International,Las Vegas,Los Angeles,United States,United States,380.66,0 days 01:19:00,16,-19,Yes
+225,2024-12-16,2618,landed,COPA Airlines,Washington Dulles International,Minneapolis - St. Paul International,Washington,Minneapolis,United States,United States,1458.03,0 days 01:53:00,6,-31,Yes
+226,2024-12-16,1040,landed,COPA Airlines,Denver International,Dickinson,Denver,Dickinson,United States,United States,789.64,0 days 01:47:00,16,-19,Yes
+227,2024-12-16,1142,landed,COPA Airlines,Denver International,Mineta San Jose International Airport,Denver,San Jose,United States,United States,1521.87,0 days 01:45:00,14,-11,Yes
+228,2024-12-16,1151,landed,COPA Airlines,Denver International,John Wayne,Denver,Santa Ana,United States,United States,1358.24,0 days 01:29:00,15,-14,Yes
+229,2024-12-16,8007,landed,COPA Airlines,Los Angeles International,Taiwan Taoyuan International (Chiang Kai Shek International),Los Angeles,Taipei,United States,Taiwan,10923.11,1 days 06:40:00,39,-16,Yes
+230,2024-12-16,7698,landed,Cathay Pacific,John F Kennedy International,Aeroporto Internacional Guarulhos,New York,Sao Paulo,United States,Brazil,7663.23,0 days 11:20:00,38,12,Yes
+231,2024-12-16,7908,landed,Cathay Pacific,Los Angeles International,Mc Carran International,Los Angeles,Las Vegas,United States,United States,380.66,0 days 01:18:00,13,-27,Yes
+232,2024-12-16,7724,landed,Cathay Pacific,Los Angeles International,Mc Carran International,Los Angeles,Las Vegas,United States,United States,380.66,0 days 01:17:00,12,-29,Yes
+233,2024-12-16,672,landed,Castle Aviation,John C. Munroe,Akron/canton Regional,Toronto,Akron/Canton,Canada,United States,279.16,0 days 01:05:00,0,-1,No
+234,2024-12-16,319,landed,Castle Aviation,John C. Munroe,Akron/canton Regional,Toronto,Akron/Canton,Canada,United States,279.16,0 days 01:31:00,43,2,No
+235,2024-12-16,1637,landed,China Southern Airlines,Philadelphia International,San Francisco International,Philadelphia,San Francisco,United States,United States,4048.84,0 days 03:16:00,37,22,Yes
+236,2024-12-16,1687,landed,China Southern Airlines,Los Angeles International,Charlotte Douglas,Los Angeles,Charlotte,United States,United States,3413.10,0 days 07:41:00,15,-26,Yes
+237,2024-12-16,1252,landed,China Southern Airlines,San Francisco International,Detroit Metropolitan Wayne County,San Francisco,Detroit,United States,United States,3338.54,0 days 07:30:00,17,-35,Yes
+238,2024-12-16,1197,landed,China Southern Airlines,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:29:00,33,2,Yes
+239,2024-12-16,1612,landed,China Southern Airlines,Los Angeles International,John F Kennedy International,Los Angeles,New York,United States,United States,3973.38,0 days 08:28:00,11,4,Yes
+240,2024-12-16,1002,landed,China Southern Airlines,Hartsfield-jackson Atlanta International,Los Angeles International,Atlanta,Los Angeles,United States,United States,3124.27,0 days 01:55:00,17,-13,Yes
+241,2024-12-16,3946,landed,Shenzhen Airlines,Dali,Zhaotong,Dali City,Zhaotong,China,China,392.44,0 days 01:10:00,3,9,Yes
+242,2024-12-16,4179,landed,Shenzhen Airlines,Tianjin Binhai International,Guangzhou Baiyun International,Tianjin,Guangzhou,China,China,1790.78,0 days 03:20:00,1,-31,Yes
+243,2024-12-16,4570,landed,Shenzhen Airlines,Xiamen,Shuangliu,Xiamen,Chengdu,China,China,1548.44,0 days 03:05:00,6,-8,Yes
+244,2024-12-16,5917,landed,Croatia Airlines,Lester B. Pearson International,Frankfurt International Airport,Toronto,Frankfurt,Canada,Germany,6341.51,0 days 13:45:00,33,-11,Yes
+245,2024-12-16,5938,landed,Croatia Airlines,Frankfurt International Airport,Lester B. Pearson International,Frankfurt,Toronto,Germany,Canada,6341.51,0 days 03:15:00,33,-16,Yes
+246,2024-12-16,5744,landed,Xiamen Airlines,Xianyang,Jinan,Xi'an,Jinan,China,China,809.13,0 days 01:45:00,8,-22,Yes
+247,2024-12-16,3679,landed,Xiamen Airlines,Shanghai Hongqiao International,Jinan,Shanghai,Jinan,China,China,735.62,0 days 01:50:00,5,-26,Yes
+248,2024-12-16,5980,landed,Delta Air Lines,John F Kennedy International,Manchester Airport,New York,Manchester,United States,United Kingdom,5362.29,0 days 11:59:00,59,17,Yes
+249,2024-12-16,6723,landed,Delta Air Lines,Marechal Cunha Machado,Aeroporto Internacional Guarulhos,São Luis,Sao Paulo,Brazil,Brazil,2330.13,0 days 03:45:00,4,-16,Yes
+250,2024-12-16,6788,landed,Delta Air Lines,Honolulu International,Hilo International,Honolulu,Hilo,United States,United States,349.53,0 days 00:55:00,32,10,Yes
+251,2024-12-16,9551,landed,Delta Air Lines,Oliver Reginald Tambo International (Jan Smuts International),Schiphol,Johannesburg,Amsterdam,South Africa,Netherlands,9016.29,0 days 10:15:00,26,71,Yes
+252,2024-12-16,8110,landed,Delta Air Lines,Internacional Benito Juarez,Aguascalients,Mexico City,Aguascalientes,Mexico,Mexico,421.09,0 days 01:23:00,40,2,Yes
+253,2024-12-16,561,landed,Delta Air Lines,Fresno Air Terminal Airport,Hartsfield-jackson Atlanta International,Fresno,Atlanta,United States,United States,3205.80,0 days 07:12:00,12,-14,No
+254,2024-12-16,9975,landed,Delta Air Lines,San Francisco International,Los Angeles International,San Francisco,Los Angeles,United States,United States,543.67,0 days 01:33:00,80,35,No
+255,2024-12-16,5964,landed,Delta Air Lines,San Francisco International,Heathrow,San Francisco,London,United States,United Kingdom,8617.54,0 days 18:15:00,39,4,Yes
+256,2024-12-16,822,landed,Delta Air Lines,Mc Carran International,Raleigh-durham International Airport,Las Vegas,Raleigh,United States,United States,3252.17,0 days 07:13:00,7,-10,No
+257,2024-12-16,417,landed,Delta Air Lines,Mc Carran International,Hartsfield-jackson Atlanta International,Las Vegas,Atlanta,United States,United States,2802.95,0 days 06:51:00,20,-9,No
+258,2024-12-16,8858,landed,Delta Air Lines,Mc Carran International,Hartsfield-jackson Atlanta International,Las Vegas,Atlanta,United States,United States,2802.95,0 days 06:43:00,25,-13,No
+259,2024-12-16,566,landed,Delta Air Lines,Mc Carran International,John F Kennedy International,Las Vegas,New York,United States,United States,3607.92,0 days 08:01:00,16,-37,No
+260,2024-12-16,8493,landed,Delta Air Lines,Chicago O'hare International,Charles De Gaulle,Chicago,Paris,United States,France,6665.95,0 days 14:55:00,63,29,Yes
+261,2024-12-16,1566,landed,Delta Air Lines,Sky Harbor International,Detroit Metropolitan Wayne County,Phoenix,Detroit,United States,United States,2682.67,0 days 05:41:00,15,-18,No
+262,2024-12-16,1562,landed,Delta Air Lines,Hartsfield-jackson Atlanta International,Orlando International,Atlanta,Orlando,United States,United States,651.51,0 days 01:31:00,89,56,No
+263,2024-12-16,1732,landed,Delta Air Lines,Hartsfield-jackson Atlanta International,Nashville International,Atlanta,Nashville,United States,United States,343.41,0 days 00:09:00,42,16,No
+264,2024-12-16,5976,landed,Delta Air Lines,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:20:00,32,109,Yes
+265,2024-12-16,105,landed,DHL Air,San Diego International Airport,Sky Harbor International,San Diego,Phoenix,United States,United States,490.42,0 days 02:17:00,10,-14,No
+266,2024-12-16,403,landed,DHL Air,Los Angeles International,Cincinnati/Northern Kentucky,Los Angeles,Covington,United States,United States,3051.47,0 days 07:19:00,26,-14,No
+267,2024-12-16,5614,landed,Juneyao Airlines,Shanghai Hongqiao International,Jinan,Shanghai,Jinan,China,China,735.62,0 days 01:50:00,5,-26,Yes
+268,2024-12-16,88,landed,East Coast Jets,Bradley International,Lehigh Valley International,Windsor Locks,Allentown,United States,United States,270.11,0 days 00:06:00,-35,1,No
+269,2024-12-16,7446,landed,Aer Lingus,Chicago O'hare International,Sky Harbor International,Chicago,Phoenix,United States,United States,2312.38,0 days 02:54:00,29,-10,Yes
+270,2024-12-16,7108,landed,Aer Lingus,Chicago O'hare International,Los Angeles International,Chicago,Los Angeles,United States,United States,2802.06,0 days 02:28:00,18,-13,Yes
+271,2024-12-16,8994,landed,Aer Lingus,Chicago O'hare International,Heathrow,Chicago,London,United States,United Kingdom,6344.45,0 days 13:50:00,36,-5,Yes
+272,2024-12-16,7522,landed,Aer Lingus,Chicago O'hare International,Miami International Airport,Chicago,Miami,United States,United States,1929.99,0 days 04:15:00,16,-6,Yes
+273,2024-12-16,122,landed,Executive Jet Aviation,Philadelphia International,Barnstable,Philadelphia,Hyannis,United States,United States,462.77,0 days 01:00:00,6,-43,No
+274,2024-12-16,231,landed,Executive Jet Aviation,Philadelphia International,Vero Beach Municipal,Philadelphia,Vero Beach,United States,United States,1440.09,0 days 03:00:00,58,2,No
+275,2024-12-16,792,landed,Executive Jet Aviation,Philadelphia International,Love Field,Philadelphia,Dallas,United States,United States,2080.10,0 days 02:30:00,6,15,No
+276,2024-12-16,820,landed,Executive Jet Aviation,Miami International Airport,Palm Beach International Airport,Miami,West Palm Beach,United States,United States,101.04,0 days 00:30:00,1,-9,No
+277,2024-12-16,769,landed,Executive Jet Aviation,Greater Wilmington,Mineta San Jose International Airport,Wilmington,San Jose,United States,United States,3992.81,0 days 03:00:00,4,2,No
+278,2024-12-16,4435,landed,EL AL,Seattle-Tacoma International,John F Kennedy International,Seattle,New York,United States,United States,3885.34,0 days 08:21:00,22,-27,Yes
+279,2024-12-16,4386,landed,EL AL,Sky Harbor International,John F Kennedy International,Phoenix,New York,United States,United States,3456.31,0 days 06:41:00,3,-35,Yes
+280,2024-12-16,8244,landed,EL AL,Noibai International,Suvarnabhumi International,Hanoi,Bangkok,Vietnam,Thailand,992.93,0 days 02:00:00,12,-14,Yes
+281,2024-12-16,8253,landed,Etihad Airways,Logan International,Ronald Reagan Washington National Airport,Boston,Washington,United States,United States,640.90,0 days 01:51:00,34,1,Yes
+282,2024-12-16,2980,landed,Etihad Airways,Barajas,Leonardo Da Vinci (Fiumicino),Madrid,Rome,Spain,Italy,1331.35,0 days 02:30:00,17,-18,No
+283,2024-12-16,8369,landed,Etihad Airways,Los Angeles International,John F Kennedy International,Los Angeles,New York,United States,United States,3973.38,0 days 08:20:00,9,-25,Yes
+284,2024-12-16,7575,landed,Etihad Airways,Barajas,Jorge Chavez International,Madrid,Lima,Spain,Peru,9524.61,0 days 06:05:00,22,-30,Yes
+285,2024-12-16,6661,landed,Etihad Airways,Melbourne - Tullamarine Airport,Brisbane International,Melbourne,Brisbane,Australia,Australia,1377.98,0 days 01:10:00,22,5,Yes
+286,2024-12-16,1356,landed,Ethiopian Airlines,Washington Dulles International,Logan International,Washington,Boston,United States,United States,661.51,0 days 01:37:00,19,-8,Yes
+287,2024-12-16,619,landed,EVA Air,Los Angeles International,Taiwan Taoyuan International (Chiang Kai Shek International),Los Angeles,Taipei,United States,Taiwan,10923.11,1 days 06:28:00,23,15,No
+288,2024-12-16,1405,landed,Jet2.com Limited,Stansted,Pablo Ruiz Picasso,London,Malaga,United Kingdom,Spain,1732.56,0 days 04:00:00,10,-18,No
+289,2024-12-16,4743,landed,Easyjet Airline Company Limited,Nantes Atlantique,Leonardo Da Vinci (Fiumicino),Nantes,Rome,France,Italy,1247.86,0 days 02:10:00,111,101,No
+290,2024-12-16,8336,landed,Easyjet Airline Company Limited,Valerio Catullo,Gatwick,Verona,London,Italy,United Kingdom,1037.53,0 days 01:05:00,39,17,No
+291,2024-12-16,8909,landed,Federal Express,Luis Munoz Marin International,V. C. Bird International,San Juan,St. John's,Puerto Rico,Antigua and Barbuda,472.72,0 days 02:04:00,43,29,No
+292,2024-12-16,1650,landed,Federal Express,Los Angeles International,Indianapolis International,Los Angeles,Indianapolis,United States,United States,2912.54,0 days 06:30:00,0,-3,No
+293,2024-12-16,7820,landed,Federal Express,Missoula International,Great Falls International Airport,Missoula,Great Falls,United States,United States,215.30,0 days 02:27:00,118,2,No
+294,2024-12-16,7690,landed,Federal Express,Roseburg Municipal Airport,Eugene,Roseburg,Eugene,United States,United States,98.60,0 days 00:56:00,25,1,No
+295,2024-12-16,1628,landed,Federal Express,Denver International,Indianapolis International,Denver,Indianapolis,United States,United States,1567.46,0 days 03:58:00,-7,-10,No
+296,2024-12-16,7693,landed,Federal Express,Santa Barbara Metropolitan Area,Ontario International,Santa Barbara,Ontario,United States,United States,209.90,0 days 01:14:00,36,1,No
+297,2024-12-16,7695,landed,Federal Express,Bellingham,Seattle-Tacoma International,Bellingham,Seattle,United States,United States,151.30,0 days 01:01:00,22,7,No
+298,2024-12-16,7805,landed,Federal Express,Yuma International Airport,Sky Harbor International,Yuma,Phoenix,United States,United States,256.78,0 days 01:15:00,14,1,No
+299,2024-12-16,1603,landed,Federal Express,Hartsfield-jackson Atlanta International,Indianapolis International,Atlanta,Indianapolis,United States,United States,695.34,0 days 01:07:00,-13,-13,No
+300,2024-12-16,1124,landed,Federal Express,Hartsfield-jackson Atlanta International,Fort Worth Alliance,Atlanta,Dallas,United States,United States,1197.60,0 days 00:54:00,-22,0,No
+301,2024-12-16,7551,landed,Federal Express,Municipal,Joe Foss Field Airport,Aberdeen,Sioux Falls,United States,United States,247.77,0 days 00:55:00,-12,-19,No
+302,2024-12-16,4125,landed,"Frontier Airlines, Inc.",Bob Hope,San Francisco International,Burbank,San Francisco,United States,United States,525.87,0 days 01:24:00,36,19,No
+303,2024-12-16,3238,landed,"Frontier Airlines, Inc.",Mc Carran International,John F Kennedy International,Las Vegas,New York,United States,United States,3607.92,0 days 07:53:00,15,-15,No
+304,2024-12-16,6455,landed,"Frontier Airlines, Inc.",Cancún International,Internacional Benito Juarez,Cancun,Mexico City,Mexico,Mexico,1284.77,0 days 01:29:00,13,-21,Yes
+305,2024-12-16,5701,landed,Finnair,Philadelphia International,Charles De Gaulle,Philadelphia,Paris,United States,France,5985.53,0 days 13:20:00,64,43,Yes
+306,2024-12-16,5474,landed,Finnair,John F Kennedy International,Heathrow,New York,London,United States,United Kingdom,5540.67,0 days 12:00:00,29,-12,Yes
+307,2024-12-16,4279,landed,Finnair,Dallas/Fort Worth International,Minneapolis - St. Paul International,Dallas,Minneapolis,United States,United States,1372.80,0 days 02:22:00,53,23,Yes
+308,2024-12-16,4093,landed,Finnair,Sky Harbor International,John F Kennedy International,Phoenix,New York,United States,United States,3456.31,0 days 06:47:00,10,-27,Yes
+309,2024-12-16,4296,landed,Finnair,Dallas/Fort Worth International,San Francisco International,Dallas,San Francisco,United States,United States,2353.35,0 days 01:52:00,69,43,Yes
+310,2024-12-16,5375,landed,Finnair,Barajas,Ezeiza Ministro Pistarini,Madrid,Buenos Aires,Spain,Argentina,10083.72,0 days 09:10:00,32,9,Yes
+311,2024-12-16,5534,landed,Finnair,Chicago O'hare International,Heathrow,Chicago,London,United States,United Kingdom,6344.45,0 days 13:50:00,36,-5,Yes
+312,2024-12-16,5554,landed,Finnair,Barajas,Internacional Benito Juarez,Madrid,Mexico City,Spain,Mexico,9066.65,0 days 05:15:00,48,5,Yes
+313,2024-12-16,6682,landed,Finnair,Melbourne - Tullamarine Airport,Doha International,Melbourne,Doha,Australia,Qatar,11961.77,0 days 06:20:00,24,-10,Yes
+314,2024-12-16,6262,landed,Finnair,Noibai International,Suvarnabhumi International,Hanoi,Bangkok,Vietnam,Thailand,992.93,0 days 02:00:00,12,-14,Yes
+315,2024-12-16,5002,landed,Fiji Airways,Los Angeles International,Philadelphia International,Los Angeles,Philadelphia,United States,United States,3856.08,0 days 08:09:00,11,-29,Yes
+316,2024-12-16,5123,landed,Fiji Airways,Los Angeles International,Mc Carran International,Los Angeles,Las Vegas,United States,United States,380.66,0 days 01:17:00,12,-29,Yes
+317,2024-12-16,5008,landed,Fiji Airways,Chicago O'hare International,Los Angeles International,Chicago,Los Angeles,United States,United States,2802.06,0 days 02:28:00,18,-13,Yes
+318,2024-12-16,5808,landed,Fiji Airways,Honolulu International,Ted Stevens Anchorage International Airport,Honolulu,Anchorage,United States,United States,4473.45,0 days 07:07:00,21,-27,Yes
+319,2024-12-16,9516,landed,Freight Runners Express,Fort Lauderdale–Hollywood International,General Mitchell International,Fort Lauderdale,Milwaukee,United States,United States,2004.43,0 days 02:40:00,15,-8,No
+320,2024-12-16,846,landed,Freight Runners Express,General Mitchell International,Laredo International Airport,Milwaukee,Laredo,United States,United States,2004.17,0 days 04:39:00,8,-5,No
+321,2024-12-16,2,landed,Flight Track Training,Cross City,Charlotte County,Cross City,Punta Gorda,United States,United States,321.28,0 days 01:40:00,4,5,No
+322,2024-12-16,6711,landed,Air Caraibes,San Francisco International,Orly,San Francisco,Paris,United States,France,8977.91,0 days 19:35:00,57,14,Yes
+323,2024-12-16,5538,landed,Tianjin Airlines,Xianyang,Beijing Capital International,Xi'an,Beijing,China,China,933.77,0 days 02:20:00,13,-18,Yes
+324,2024-12-16,4378,landed,Gulf Air,Dallas/Fort Worth International,Detroit Metropolitan Wayne County,Dallas,Detroit,United States,United States,1585.76,0 days 03:33:00,74,44,Yes
+325,2024-12-16,4355,landed,Gulf Air,Chicago O'hare International,Sky Harbor International,Chicago,Phoenix,United States,United States,2312.38,0 days 02:54:00,29,-10,Yes
+326,2024-12-16,4314,landed,Gulf Air,Chicago O'hare International,Los Angeles International,Chicago,Los Angeles,United States,United States,2802.06,0 days 02:28:00,18,-13,Yes
+327,2024-12-16,9670,landed,Garuda,King Abdulaziz International,Gassim Regional Airport,Jeddah,Buraidah,Saudi Arabia,Saudi Arabia,696.74,0 days 01:30:00,11,-11,Yes
+328,2024-12-16,6009,landed,"Gol Linhas Aéreas Inteligentes
+Gol Linhas Aéreas Inteligentes
+",John F Kennedy International,Aeroporto Internacional Guarulhos,New York,Sao Paulo,United States,Brazil,7663.23,0 days 11:20:00,38,12,Yes
+329,2024-12-16,5814,landed,"Gol Linhas Aéreas Inteligentes
+Gol Linhas Aéreas Inteligentes
+",El Nuevo Dorado International,John F Kennedy International,Bogota,New York,Colombia,United States,3996.92,0 days 05:50:00,19,-31,Yes
+330,2024-12-16,6327,landed,"Gol Linhas Aéreas Inteligentes
+Gol Linhas Aéreas Inteligentes
+",Miami International Airport,Lambert-St. Louis International,Miami,St Louis,United States,United States,1721.28,0 days 02:05:00,75,36,Yes
+331,2024-12-16,6447,landed,"Gol Linhas Aéreas Inteligentes
+Gol Linhas Aéreas Inteligentes
+",Seattle-Tacoma International,Miami International Airport,Seattle,Miami,United States,United States,4379.43,0 days 08:47:00,23,-20,Yes
+332,2024-12-16,6038,landed,"Gol Linhas Aéreas Inteligentes
+Gol Linhas Aéreas Inteligentes
+",Chicago O'hare International,Miami International Airport,Chicago,Miami,United States,United States,1929.99,0 days 04:15:00,16,-6,Yes
+333,2024-12-16,6004,landed,"Gol Linhas Aéreas Inteligentes
+Gol Linhas Aéreas Inteligentes
+",Galeao Antonio Carlos Jobim,Miami International Airport,Rio de Janeiro,Miami,Brazil,United States,6717.35,0 days 06:50:00,9,-39,Yes
+334,2024-12-16,6112,landed,Grixona,Alexandria International,Valley International,Alexandria,Harlingen,United States,United States,755.15,0 days 01:13:00,3,-3,No
+335,2024-12-16,1150,landed,Grixona,Valley International,Alexandria International,Harlingen,Alexandria,United States,United States,755.15,0 days 02:59:00,113,1,No
+336,2024-12-16,6103,landed,Hawaiian Airlines,Los Angeles International,Portland International,Los Angeles,Portland,United States,United States,1342.90,0 days 02:34:00,16,-11,Yes
+337,2024-12-16,6219,landed,Hawaiian Airlines,Chicago O'hare International,Seattle-Tacoma International,Chicago,Seattle,United States,United States,2761.28,0 days 02:46:00,36,11,Yes
+338,2024-12-16,6936,landed,Hawaiian Airlines,Seattle-Tacoma International,John Wayne,Seattle,Santa Ana,United States,United States,1575.06,0 days 02:45:00,10,-23,Yes
+339,2024-12-16,6658,landed,Hawaiian Airlines,Seattle-Tacoma International,Missoula International,Seattle,Missoula,United States,United States,623.57,0 days 02:20:00,33,9,Yes
+340,2024-12-16,2390,landed,Hawaiian Airlines,Hartsfield-jackson Atlanta International,Logan International,Atlanta,Boston,United States,United States,1521.50,0 days 02:34:00,23,-4,Yes
+341,2024-12-16,7853,landed,Hawaiian Airlines,Seattle-Tacoma International,Honolulu International,Seattle,Honolulu,United States,United States,4307.48,0 days 04:29:00,11,-30,Yes
+342,2024-12-16,6568,landed,Hawaiian Airlines,Seattle-Tacoma International,Mc Carran International,Seattle,Las Vegas,United States,United States,1393.76,0 days 02:32:00,16,-26,Yes
+343,2024-12-16,6601,landed,Hawaiian Airlines,Seattle-Tacoma International,Hartsfield-jackson Atlanta International,Seattle,Atlanta,United States,United States,3502.92,0 days 07:42:00,46,9,Yes
+344,2024-12-16,6781,landed,Hawaiian Airlines,San Francisco International,Los Angeles International,San Francisco,Los Angeles,United States,United States,543.67,0 days 01:31:00,41,7,Yes
+345,2024-12-16,6492,landed,Hawaiian Airlines,Seattle-Tacoma International,Bellingham,Seattle,Bellingham,United States,United States,151.30,0 days 00:51:00,13,-12,Yes
+346,2024-12-16,6832,landed,Hawaiian Airlines,San Francisco International,San Diego International Airport,San Francisco,San Diego,United States,United States,719.17,0 days 01:37:00,11,-15,Yes
+347,2024-12-16,6619,landed,Hawaiian Airlines,Seattle-Tacoma International,Los Angeles International,Seattle,Los Angeles,United States,United States,1536.12,0 days 02:50:00,14,-31,Yes
+348,2024-12-16,4939,landed,Hawaiian Airlines,Los Angeles International,Mc Carran International,Los Angeles,Las Vegas,United States,United States,380.66,0 days 01:18:00,13,-27,Yes
+349,2024-12-16,6906,landed,Hawaiian Airlines,San Francisco International,John Wayne,San Francisco,Santa Ana,United States,United States,598.96,0 days 01:34:00,12,-18,Yes
+350,2024-12-16,6929,landed,Hawaiian Airlines,Seattle-Tacoma International,John Wayne,Seattle,Santa Ana,United States,United States,1575.06,0 days 02:45:00,8,-29,Yes
+351,2024-12-16,6640,landed,Hawaiian Airlines,Seattle-Tacoma International,Vancouver International,Seattle,Vancouver,United States,Canada,205.21,0 days 01:05:00,41,9,Yes
+352,2024-12-16,2310,landed,Hawaiian Airlines,Los Angeles International,John F Kennedy International,Los Angeles,New York,United States,United States,3973.38,0 days 08:20:00,9,-25,Yes
+353,2024-12-16,7828,landed,Hawaiian Airlines,Honolulu International,Ted Stevens Anchorage International Airport,Honolulu,Anchorage,United States,United States,4473.45,0 days 07:07:00,21,-27,Yes
+354,2024-12-16,4121,landed,Hawaiian Airlines,Melbourne - Tullamarine Airport,Sydney Kingsford Smith Airport,Melbourne,Sydney,Australia,Australia,705.79,0 days 01:25:00,27,11,Yes
+355,2024-12-16,4679,landed,IBERIA,Philadelphia International,Charles De Gaulle,Philadelphia,Paris,United States,France,5985.53,0 days 13:20:00,64,43,Yes
+356,2024-12-16,4525,landed,IBERIA,Philadelphia International,Mc Carran International,Philadelphia,Las Vegas,United States,United States,3493.64,0 days 02:32:00,3,-30,Yes
+357,2024-12-16,7304,landed,IBERIA,Chicago O'hare International,Seattle-Tacoma International,Chicago,Seattle,United States,United States,2761.28,0 days 02:46:00,36,11,Yes
+358,2024-12-16,9027,landed,IBERIA,Internacional Benito Juarez,General A. L. Rodriguez International,Mexico City,Tijuana,Mexico,Mexico,2301.71,0 days 01:47:00,15,-20,Yes
+359,2024-12-16,9039,landed,IBERIA,Internacional Benito Juarez,General A. L. Rodriguez International,Mexico City,Tijuana,Mexico,Mexico,2301.71,0 days 01:47:00,15,-20,Yes
+360,2024-12-16,4197,landed,IBERIA,Chicago O'hare International,Sky Harbor International,Chicago,Phoenix,United States,United States,2312.38,0 days 02:54:00,29,-10,Yes
+361,2024-12-16,4227,landed,IBERIA,Chicago O'hare International,Los Angeles International,Chicago,Los Angeles,United States,United States,2802.06,0 days 02:28:00,18,-13,Yes
+362,2024-12-16,3633,landed,IBERIA,Chicago O'hare International,Heathrow,Chicago,London,United States,United Kingdom,6344.45,0 days 13:50:00,36,-5,Yes
+363,2024-12-16,6266,landed,IBERIA,Melbourne - Tullamarine Airport,Doha International,Melbourne,Doha,Australia,Qatar,11961.77,0 days 06:20:00,24,-10,Yes
+364,2024-12-16,6046,landed,Icelandair,Franz Josef Strauss,Chelsea Twr EY Bus Station,Munich,Dubai,Germany,United Arab Emirates,4559.07,0 days 09:10:00,19,-44,Yes
+365,2024-12-16,6046,landed,Icelandair,Franz Josef Strauss,Dubai,Munich,Dubai,Germany,United Arab Emirates,4563.22,0 days 09:10:00,19,-44,Yes
+366,2024-12-16,7685,landed,Icelandair,Seattle-Tacoma International,John Wayne,Seattle,Santa Ana,United States,United States,1575.06,0 days 02:45:00,8,-29,Yes
+367,2024-12-16,7673,landed,Icelandair,Seattle-Tacoma International,Vancouver International,Seattle,Vancouver,United States,Canada,205.21,0 days 01:05:00,41,9,Yes
+368,2024-12-16,1015,landed,Interflug,Thief River Falls Regional Airport,Louisville International (Standiford Field),Thief River Falls,Louisville,United States,United States,1384.83,0 days 04:26:00,94,-8,No
+369,2024-12-16,7567,landed,Interflug,Thief River Falls Regional Airport,Memphis International,Thief River Falls,Memphis,United States,United States,1535.87,0 days 02:30:00,-27,-52,No
+370,2024-12-16,7272,landed,Interglobe Aviation Ltd. dba Indigo,Agatti Island,Bangalore International Airport,Agatti Island,Bangalore,India,India,656.16,0 days 02:15:00,-16,-49,No
+371,2024-12-16,5214,landed,Jetair,Los Angeles International,Sydney Kingsford Smith Airport,Los Angeles,Sydney,United States,Australia,12060.21,1 days 10:05:00,36,-27,Yes
+372,2024-12-16,6343,landed,Jetair,Philadelphia International,Logan International,Philadelphia,Boston,United States,United States,449.12,0 days 01:27:00,8,-23,Yes
+373,2024-12-16,6981,landed,Jetair,John F Kennedy International,Aeroporto Internacional Guarulhos,New York,Sao Paulo,United States,Brazil,7663.23,0 days 11:20:00,38,12,Yes
+374,2024-12-16,4094,landed,Jetair,Dallas/Fort Worth International,Minneapolis - St. Paul International,Dallas,Minneapolis,United States,United States,1372.80,0 days 02:22:00,53,23,Yes
+375,2024-12-16,6412,landed,Jetair,George Bush Intercontinental,Sky Harbor International,Houston,Phoenix,United States,United States,1620.06,0 days 02:06:00,26,-17,Yes
+376,2024-12-16,4733,landed,Jetair,Chicago O'hare International,Ronald Reagan Washington National Airport,Chicago,Washington,United States,United States,982.05,0 days 02:52:00,29,6,Yes
+377,2024-12-16,5936,landed,Jetair,Seattle-Tacoma International,Doha International,Seattle,Doha,United States,Qatar,11906.55,1 days 01:35:00,20,-45,Yes
+378,2024-12-16,6835,landed,Jetair,Sky Harbor International,John F Kennedy International,Phoenix,New York,United States,United States,3456.31,0 days 06:47:00,10,-27,Yes
+379,2024-12-16,7452,landed,Jetair,Fukuoka,Haneda Airport,Fukuoka,Tokyo,Japan,Japan,882.35,0 days 01:35:00,17,-8,Yes
+380,2024-12-16,6010,landed,Jetair,Sky Harbor International,Albuquerque International,Phoenix,Albuquerque,United States,United States,526.28,0 days 01:16:00,10,-16,Yes
+381,2024-12-16,4750,landed,Jetair,Chicago O'hare International,LaGuardia,Chicago,New York,United States,United States,1177.20,0 days 03:01:00,13,-2,Yes
+382,2024-12-16,5290,landed,Jetair,Chicago O'hare International,Heathrow,Chicago,London,United States,United Kingdom,6344.45,0 days 13:50:00,36,-5,Yes
+383,2024-12-16,6460,landed,Jetair,Sky Harbor International,Hector Field,Phoenix,Fargo,United States,United States,1970.30,0 days 04:05:00,12,-19,Yes
+384,2024-12-16,4301,landed,Jetair,Sky Harbor International,John Wayne,Phoenix,Santa Ana,United States,United States,543.65,0 days 00:23:00,11,-16,Yes
+385,2024-12-16,4295,landed,Jetair,Sky Harbor International,San Diego International Airport,Phoenix,San Diego,United States,United States,490.42,0 days 00:14:00,10,-16,Yes
+386,2024-12-16,8004,landed,Jetair,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,18,-11,Yes
+387,2024-12-16,5250,landed,Jetair,John F Kennedy International,Heathrow,New York,London,United States,United Kingdom,5540.67,0 days 12:00:00,34,-2,Yes
+388,2024-12-16,778,landed,JetBlue,Mc Carran International,Logan International,Las Vegas,Boston,United States,United States,3820.83,0 days 07:58:00,39,3,No
+389,2024-12-16,1794,landed,JetBlue,Juan Santamaría International,John F Kennedy International,San Jose,New York,Costa Rica,United States,3558.38,0 days 06:02:00,9,-34,No
+390,2024-12-16,6810,landed,JetBlue,John F Kennedy International,Shannon,New York,Shannon,United States,Ireland,4946.90,0 days 11:20:00,29,7,Yes
+391,2024-12-16,5804,landed,JetBlue,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,18,-11,Yes
+392,2024-12-16,6504,landed,JetBlue,Melbourne - Tullamarine Airport,Doha International,Melbourne,Doha,Australia,Qatar,11961.77,0 days 06:20:00,24,-10,Yes
+393,2024-12-16,508,landed,Jetstar Airways Pty Limited,Fukuoka,Narita International Airport,Fukuoka,Tokyo,Japan,Japan,940.78,0 days 01:50:00,56,32,No
+394,2024-12-16,7200,landed,Jet Linx Aviation,John F Kennedy International,Aeroporto Internacional Guarulhos,New York,Sao Paulo,United States,Brazil,7663.23,0 days 11:20:00,38,12,Yes
+395,2024-12-16,6433,landed,Jet Linx Aviation,Honolulu International,Kahului,Honolulu,Maui,United States,United States,161.20,0 days 00:41:00,20,2,Yes
+396,2024-12-16,6346,landed,Jet Linx Aviation,Seattle-Tacoma International,Hartsfield-jackson Atlanta International,Seattle,Atlanta,United States,United States,3502.92,0 days 07:42:00,46,9,Yes
+397,2024-12-16,5440,landed,Jet Linx Aviation,Seattle-Tacoma International,Washington Dulles International,Seattle,Washington,United States,United States,3701.23,0 days 07:54:00,30,-10,Yes
+398,2024-12-16,7532,landed,Jet Linx Aviation,Los Angeles International,Sky Harbor International,Los Angeles,Phoenix,United States,United States,595.47,0 days 02:25:00,6,-18,Yes
+399,2024-12-16,7552,landed,Jet Linx Aviation,Los Angeles International,San Francisco International,Los Angeles,San Francisco,United States,United States,543.67,0 days 01:32:00,14,-20,Yes
+400,2024-12-16,5659,landed,Jet Linx Aviation,Fukuoka,Shanghai Pudong International,Fukuoka,Shanghai,Japan,China,855.37,0 days 01:20:00,36,-11,Yes
+401,2024-12-16,7580,landed,Jet Linx Aviation,Los Angeles International,Mc Carran International,Los Angeles,Las Vegas,United States,United States,380.66,0 days 01:17:00,12,-29,Yes
+402,2024-12-16,9648,landed,Jet Linx Aviation,Hyderabad Airport,Indira Gandhi International,Hyderabad,New Delhi,India,India,1265.63,0 days 02:20:00,31,1,Yes
+403,2024-12-16,9030,landed,Jet Linx Aviation,Hyderabad Airport,Bangalore International Airport,Hyderabad,Bangalore,India,India,455.99,0 days 01:05:00,18,2,Yes
+404,2024-12-16,210,landed,USA Jet Airlines,Del Bajío International,Laredo International Airport,Leon,Laredo,Mexico,United States,757.48,0 days 01:40:00,-54,-84,No
+405,2024-12-16,7405,landed,Korean Air,Los Angeles International,Dallas/Fort Worth International,Los Angeles,Dallas,United States,United States,1983.36,0 days 05:00:00,-2,-27,Yes
+406,2024-12-16,7550,landed,Korean Air,Minneapolis - St. Paul International,Los Angeles International,Minneapolis,Los Angeles,United States,United States,2468.10,0 days 02:13:00,26,-11,Yes
+407,2024-12-16,3039,landed,Korean Air,Seattle-Tacoma International,Chicago O'hare International,Seattle,Chicago,United States,United States,2761.28,0 days 06:00:00,14,-32,Yes
+408,2024-12-16,6385,landed,Korean Air,Charles De Gaulle,Marseille Provence Airport,Paris,Marseille,France,France,651.15,0 days 01:25:00,23,-1,Yes
+409,2024-12-16,3049,landed,Korean Air,Seattle-Tacoma International,Mc Carran International,Seattle,Las Vegas,United States,United States,1393.76,0 days 02:35:00,9,-33,Yes
+410,2024-12-16,3029,landed,Korean Air,Seattle-Tacoma International,John F Kennedy International,Seattle,New York,United States,United States,3885.34,0 days 08:28:00,8,-45,Yes
+411,2024-12-16,3021,landed,Korean Air,Seattle-Tacoma International,Honolulu International,Seattle,Honolulu,United States,United States,4307.48,0 days 04:31:00,26,-9,Yes
+412,2024-12-16,7073,landed,Korean Air,Hartsfield-jackson Atlanta International,Washington Dulles International,Atlanta,Washington,United States,United States,860.96,0 days 01:41:00,8,-15,Yes
+413,2024-12-16,6302,landed,Korean Air,Barajas,Leonardo Da Vinci (Fiumicino),Madrid,Rome,Spain,Italy,1331.35,0 days 02:30:00,17,-18,No
+414,2024-12-16,3043,landed,Korean Air,Seattle-Tacoma International,Hartsfield-jackson Atlanta International,Seattle,Atlanta,United States,United States,3502.92,0 days 07:47:00,1,-41,Yes
+415,2024-12-16,6266,landed,Korean Air,Seattle-Tacoma International,Minneapolis - St. Paul International,Seattle,Minneapolis,United States,United States,2245.08,0 days 05:15:00,14,-17,Yes
+416,2024-12-16,6103,landed,Korean Air,Seattle-Tacoma International,Los Angeles International,Seattle,Los Angeles,United States,United States,1536.12,0 days 02:50:00,14,-31,Yes
+417,2024-12-16,6,landed,Korean Air,Mc Carran International,Seoul (Incheon),Las Vegas,Seoul,United States,South Korea,9669.72,1 days 06:30:00,22,-35,No
+418,2024-12-16,3799,landed,Korean Air,Mc Carran International,Hartsfield-jackson Atlanta International,Las Vegas,Atlanta,United States,United States,2802.95,0 days 06:53:00,9,-18,Yes
+419,2024-12-16,3062,landed,Korean Air,Seattle-Tacoma International,Nez Perce County Rgnl,Seattle,Lewiston,United States,United States,418.77,0 days 01:23:00,19,-13,Yes
+420,2024-12-16,3502,landed,Korean Air,Hartsfield-jackson Atlanta International,Albany International,Atlanta,Albany,United States,United States,1372.09,0 days 02:13:00,4,-23,Yes
+421,2024-12-16,7003,landed,Korean Air,Hartsfield-jackson Atlanta International,Pensacola International Airport,Atlanta,Pensacola,United States,United States,436.94,0 days 00:14:00,21,-8,Yes
+422,2024-12-16,6764,landed,Korean Air,Hartsfield-jackson Atlanta International,LaGuardia,Atlanta,New York,United States,United States,1225.55,0 days 02:12:00,72,43,Yes
+423,2024-12-16,3885,landed,Korean Air,Minneapolis - St. Paul International,George Bush Intercontinental,Minneapolis,Houston,United States,United States,1667.23,0 days 03:04:00,11,-29,Yes
+424,2024-12-16,6159,landed,Korean Air,Seattle-Tacoma International,Vancouver International,Seattle,Vancouver,United States,Canada,205.21,0 days 01:05:00,41,9,Yes
+425,2024-12-16,6245,landed,Korean Air,Honolulu International,Ted Stevens Anchorage International Airport,Honolulu,Anchorage,United States,United States,4473.45,0 days 07:07:00,21,-27,Yes
+426,2024-12-16,7853,landed,Korean Air,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,18,-11,Yes
+427,2024-12-16,3597,landed,Korean Air,Hartsfield-jackson Atlanta International,Yeager,Atlanta,Charleston,United States,United States,584.95,0 days 01:27:00,9,-24,Yes
+428,2024-12-16,7085,landed,Korean Air,Hartsfield-jackson Atlanta International,Los Angeles International,Atlanta,Los Angeles,United States,United States,3124.27,0 days 01:55:00,17,-13,Yes
+429,2024-12-16,305,landed,Cemair (Pty) Ltd. t/a Cemair,Maputo International,Oliver Reginald Tambo International (Jan Smuts International),Maputo,Johannesburg,Mozambique,South Africa,434.53,0 days 01:10:00,53,32,No
+430,2024-12-16,306,landed,Cemair (Pty) Ltd. t/a Cemair,Oliver Reginald Tambo International (Jan Smuts International),Maputo International,Johannesburg,Maputo,South Africa,Mozambique,434.53,0 days 01:10:00,54,27,No
+431,2024-12-16,3619,landed,"Cambodia Angkor Air t/a Cambodia Angkor Air Co., Ltd.",Noibai International,Suvarnabhumi International,Hanoi,Bangkok,Vietnam,Thailand,992.93,0 days 02:00:00,12,-14,Yes
+432,2024-12-16,4819,landed,KLM,John F Kennedy International,Manchester Airport,New York,Manchester,United States,United Kingdom,5362.29,0 days 11:59:00,59,17,Yes
+433,2024-12-16,6226,landed,KLM,Minneapolis - St. Paul International,George Bush Intercontinental,Minneapolis,Houston,United States,United States,1667.23,0 days 03:03:00,9,-23,Yes
+434,2024-12-16,5636,landed,KLM,Minneapolis - St. Paul International,Los Angeles International,Minneapolis,Los Angeles,United States,United States,2468.10,0 days 01:54:00,8,-25,Yes
+435,2024-12-16,5622,landed,KLM,Minneapolis - St. Paul International,Logan International,Minneapolis,Boston,United States,United States,1802.13,0 days 03:57:00,8,-31,Yes
+436,2024-12-16,7741,landed,KLM,Philadelphia International,Hartsfield-jackson Atlanta International,Philadelphia,Atlanta,United States,United States,1072.57,0 days 02:20:00,5,-31,Yes
+437,2024-12-16,6233,landed,KLM,Washington Dulles International,Hartsfield-jackson Atlanta International,Washington,Atlanta,United States,United States,860.96,0 days 01:52:00,14,-11,Yes
+438,2024-12-16,6660,landed,KLM,Minneapolis - St. Paul International,Rapid City Regional Airport,Minneapolis,Rapid City,United States,United States,786.89,0 days 01:01:00,8,-32,Yes
+439,2024-12-16,6382,landed,KLM,Seattle-Tacoma International,John Wayne,Seattle,Santa Ana,United States,United States,1575.06,0 days 02:50:00,18,-26,Yes
+440,2024-12-16,6378,landed,KLM,Minneapolis - St. Paul International,Denver International,Minneapolis,Denver,United States,United States,1093.93,0 days 01:15:00,20,-13,Yes
+441,2024-12-16,8908,landed,KLM,Internacional Benito Juarez,Aguascalients,Mexico City,Aguascalientes,Mexico,Mexico,421.09,0 days 01:23:00,40,2,Yes
+442,2024-12-16,6566,landed,KLM,John F Kennedy International,Luis Munoz Marin International,New York,San Juan,United States,Puerto Rico,2578.58,0 days 05:11:00,52,8,Yes
+443,2024-12-16,8902,landed,KLM,Internacional Benito Juarez,General A. L. Rodriguez International,Mexico City,Tijuana,Mexico,Mexico,2301.71,0 days 02:00:00,20,-32,Yes
+444,2024-12-16,6887,landed,KLM,Dane County Regional,Hartsfield-jackson Atlanta International,Madison,Atlanta,United States,United States,1138.57,0 days 03:12:00,26,-2,Yes
+445,2024-12-16,6696,landed,KLM,Seattle-Tacoma International,Honolulu International,Seattle,Honolulu,United States,United States,4307.48,0 days 04:31:00,26,-9,Yes
+446,2024-12-16,5474,landed,KLM,Hartsfield-jackson Atlanta International,Washington Dulles International,Atlanta,Washington,United States,United States,860.96,0 days 01:41:00,8,-15,Yes
+447,2024-12-16,5662,landed,KLM,Hartsfield-jackson Atlanta International,Gulfport-Biloxi International,Atlanta,Gulfport,United States,United States,564.75,0 days 00:26:00,12,-17,Yes
+448,2024-12-16,5859,landed,KLM,Detroit Metropolitan Wayne County,Minneapolis - St. Paul International,Detroit,Minneapolis,United States,United States,847.47,0 days 00:57:00,16,-16,Yes
+449,2024-12-16,5390,landed,KLM,Fresno Air Terminal Airport,Hartsfield-jackson Atlanta International,Fresno,Atlanta,United States,United States,3205.80,0 days 07:12:00,12,-14,Yes
+450,2024-12-16,2387,landed,KLM,Chicago O'hare International,Charles De Gaulle,Chicago,Paris,United States,France,6665.95,0 days 14:55:00,63,29,Yes
+451,2024-12-16,5278,landed,KLM,Hartsfield-jackson Atlanta International,Philadelphia International,Atlanta,Philadelphia,United States,United States,1072.57,0 days 01:52:00,64,35,Yes
+452,2024-12-16,5206,landed,KLM,Hartsfield-jackson Atlanta International,George Bush Intercontinental,Atlanta,Houston,United States,United States,1106.21,0 days 01:15:00,18,-9,Yes
+453,2024-12-16,2519,landed,KLM,Miami International Airport,Heathrow,Miami,London,United States,United Kingdom,7108.45,0 days 13:40:00,46,45,Yes
+454,2024-12-16,8926,landed,KLM,Internacional Benito Juarez,Gen Mariano Escobedo,Mexico City,Monterrey,Mexico,Mexico,713.17,0 days 01:47:00,19,-23,Yes
+455,2024-12-16,6304,landed,KLM,Seattle-Tacoma International,Mineta San Jose International Airport,Seattle,San Jose,United States,United States,1120.94,0 days 02:25:00,11,-30,Yes
+456,2024-12-16,5740,landed,KLM,Hartsfield-jackson Atlanta International,Albany International,Atlanta,Albany,United States,United States,1372.09,0 days 02:13:00,4,-23,Yes
+457,2024-12-16,5510,landed,KLM,Hartsfield-jackson Atlanta International,Pensacola International Airport,Atlanta,Pensacola,United States,United States,436.94,0 days 00:14:00,21,-8,Yes
+458,2024-12-16,6904,landed,KLM,Hartsfield-jackson Atlanta International,Newark Liberty International,Atlanta,Newark,United States,United States,1199.22,0 days 02:05:00,11,-19,Yes
+459,2024-12-16,4748,landed,KLM,Hyderabad Airport,Indira Gandhi International,Hyderabad,New Delhi,India,India,1265.63,0 days 02:20:00,31,1,Yes
+460,2024-12-16,6980,landed,KLM,Los Angeles International,Auckland International,Los Angeles,Auckland,United States,New Zealand,10486.94,1 days 10:25:00,50,4,Yes
+461,2024-12-16,6940,landed,KLM,Los Angeles International,Sydney Kingsford Smith Airport,Los Angeles,Sydney,United States,Australia,12060.21,1 days 10:10:00,31,7,Yes
+462,2024-12-16,2515,landed,KLM,Los Angeles International,Heathrow,Los Angeles,London,United States,United Kingdom,8760.09,0 days 18:20:00,32,109,Yes
+463,2024-12-16,7857,landed,KLM,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,37,20,Yes
+464,2024-12-16,6436,landed,KLM,Hartsfield-jackson Atlanta International,Yeager,Atlanta,Charleston,United States,United States,584.95,0 days 01:27:00,9,-24,Yes
+465,2024-12-16,5476,landed,KLM,Hartsfield-jackson Atlanta International,Washington Dulles International,Atlanta,Washington,United States,United States,860.96,0 days 01:42:00,19,-4,Yes
+466,2024-12-16,7022,landed,Kenya Airways,Sky Harbor International,John F Kennedy International,Phoenix,New York,United States,United States,3456.31,0 days 06:41:00,3,-35,Yes
+467,2024-12-16,7206,landed,Kenya Airways,Miami International Airport,Barajas,Miami,Madrid,United States,Spain,7105.60,0 days 14:20:00,15,-33,Yes
+468,2024-12-16,5303,landed,Kenya Airways,Noibai International,Suvarnabhumi International,Hanoi,Bangkok,Vietnam,Thailand,992.93,0 days 02:00:00,12,-14,Yes
+469,2024-12-16,8769,landed,Lan Airlines,Philadelphia International,Hartsfield-jackson Atlanta International,Philadelphia,Atlanta,United States,United States,1072.57,0 days 02:20:00,5,-31,Yes
+470,2024-12-16,8991,landed,Lan Airlines,Washington Dulles International,Hartsfield-jackson Atlanta International,Washington,Atlanta,United States,United States,860.96,0 days 01:52:00,14,-11,Yes
+471,2024-12-16,9421,landed,Lan Airlines,Aeroporto Internacional Guarulhos,Congonhas International Airport,Sao Paulo,Sao Paulo,Brazil,Brazil,28.79,0 days 00:35:00,25,33,No
+472,2024-12-16,6717,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Love Field,Atlanta,Dallas,United States,United States,1156.44,0 days 01:19:00,11,-24,Yes
+473,2024-12-16,6395,landed,Lan Airlines,Salt Lake City International,Miami International Airport,Salt Lake City,Miami,United States,United States,3358.35,0 days 06:45:00,24,-26,Yes
+474,2024-12-16,6856,landed,Lan Airlines,Dane County Regional,Hartsfield-jackson Atlanta International,Madison,Atlanta,United States,United States,1138.57,0 days 03:12:00,26,-2,Yes
+475,2024-12-16,8972,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Washington Dulles International,Atlanta,Washington,United States,United States,860.96,0 days 01:41:00,8,-15,Yes
+476,2024-12-16,1990,landed,Lan Airlines,Jorge Chavez International,Mariscal Sucre,Lima,Quito,Peru,Ecuador,1329.11,0 days 02:20:00,27,3,No
+477,2024-12-16,6134,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Albuquerque International,Atlanta,Albuquerque,United States,United States,2037.52,0 days 01:27:00,8,-23,Yes
+478,2024-12-16,6507,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Philadelphia International,Atlanta,Philadelphia,United States,United States,1072.57,0 days 01:52:00,64,35,Yes
+479,2024-12-16,5114,landed,Lan Airlines,Gen Mariano Escobedo,Seoul (Incheon),Monterrey,Seoul,Mexico,South Korea,11467.10,1 days 06:50:00,12,-37,Yes
+480,2024-12-16,6718,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Albany International,Atlanta,Albany,United States,United States,1372.09,0 days 02:13:00,4,-23,Yes
+481,2024-12-16,6761,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Pensacola International Airport,Atlanta,Pensacola,United States,United States,436.94,0 days 00:14:00,21,-8,Yes
+482,2024-12-16,7735,landed,Lan Airlines,Internacional Benito Juarez,La Aurora,Mexico City,Guatemala City,Mexico,Guatemala,1055.80,0 days 02:10:00,26,-12,Yes
+483,2024-12-16,8967,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Newark Liberty International,Atlanta,Newark,United States,United States,1199.22,0 days 02:05:00,11,-19,Yes
+484,2024-12-16,5648,landed,Lan Airlines,Los Angeles International,Hong Kong International,Los Angeles,Hong Kong,United States,Hong Kong,11662.37,1 days 08:00:00,72,14,Yes
+485,2024-12-16,8940,landed,Lan Airlines,Honolulu International,Los Angeles International,Honolulu,Los Angeles,United States,United States,4107.70,0 days 07:25:00,37,20,Yes
+486,2024-12-16,6112,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Los Angeles International,Atlanta,Los Angeles,United States,United States,3124.27,0 days 01:55:00,17,-13,Yes
+487,2024-12-16,8971,landed,Lan Airlines,Hartsfield-jackson Atlanta International,Washington Dulles International,Atlanta,Washington,United States,United States,860.96,0 days 01:42:00,19,-4,Yes
+488,2024-12-16,865,landed,Quest Diagnostics,Pensacola International Airport,Tallahassee Regional Airport,Pensacola,Tallahassee,United States,United States,273.35,0 days 02:56:00,74,-4,No
+489,2024-12-16,550,landed,Air Alfa,Space Coast Regional,Orlando Sanford International,Titusville,Orlando,United States,United States,52.25,0 days 01:09:00,35,-1,No
+490,2024-12-16,4956,landed,LOT Polish Airlines,Frankfurt International Airport,Copernicus Airport,Frankfurt,Wroclaw,Germany,Poland,599.32,0 days 01:20:00,8,-10,No
+491,2024-12-16,4990,landed,LOT Polish Airlines,Franz Josef Strauss,Copernicus Airport,Munich,Wroclaw,Germany,Poland,477.81,0 days 01:05:00,11,-8,No
+492,2024-12-16,385,landed,Flexjet,Sky Harbor International,San Diego International Airport,Phoenix,San Diego,United States,United States,490.42,0 days 01:08:00,77,1,No
+493,2024-12-16,604,landed,Flexjet,Airpark,Love Field,Midland,Dallas,United States,United States,496.97,0 days 01:34:00,46,2,No
+494,2024-12-16,414,landed,Key Lime Air Corporation,Sidney,Denver International,Sidney,Denver,United States,United States,199.40,0 days 00:55:00,20,0,No
+495,2024-12-16,943,landed,Key Lime Air Corporation,Montrose Regional Airport,Denver International,Montrose,Denver,United States,United States,315.25,0 days 00:43:00,3,2,No
+496,2024-12-16,717,landed,Key Lime Air Corporation,Riverton Regional,Denver International,Riverton,Denver,United States,United States,476.60,0 days 01:10:00,-2,-7,No
+497,2024-12-16,9422,landed,Malaysia Airlines,Los Angeles International,Lambert-St. Louis International,Los Angeles,St Louis,United States,United States,2557.07,0 days 05:37:00,6,-17,Yes
+498,2024-12-16,9326,landed,Malaysia Airlines,Seattle-Tacoma International,Doha International,Seattle,Doha,United States,Qatar,11906.55,1 days 01:35:00,20,-45,Yes
+499,2024-12-16,9455,landed,Malaysia Airlines,Chicago O'hare International,Los Angeles International,Chicago,Los Angeles,United States,United States,2802.06,0 days 02:28:00,18,-13,Yes
+500,2024-12-16,9385,landed,Malaysia Airlines,Chicago O'hare International,Philadelphia International,Chicago,Philadelphia,United States,United States,1087.98,0 days 03:00:00,15,-16,Yes
